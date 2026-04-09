@@ -127,8 +127,8 @@ export default function QuizQuestionCard({
                   {decode(option.text)}
                 </p>
 
-                {/* Rationale - shown after reveal */}
-                {showResult && (isCorrect || isSelected) && (
+                {/* Rationale - shown after reveal for ALL options */}
+                {showResult && (
                   <div className="mt-2 flex items-start gap-1.5">
                     {isCorrect ? (
                       <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
@@ -138,7 +138,7 @@ export default function QuizQuestionCard({
                     <p
                       className={cn(
                         "font-arabic text-sm leading-loose",
-                        isCorrect ? "text-emerald-300/80" : "text-red-300/80"
+                        isCorrect ? "text-emerald-300/80" : isSelected ? "text-red-300/80" : "text-stone-500/60"
                       )}
                     >
                       {decode(option.rationale)}
@@ -153,6 +153,9 @@ export default function QuizQuestionCard({
               )}
               {showResult && isSelected && !isCorrect && (
                 <XCircle className="shrink-0 w-5 h-5 text-red-400 mt-0.5" />
+              )}
+              {showResult && !isCorrect && !isSelected && (
+                <XCircle className="shrink-0 w-5 h-5 text-stone-600 mt-0.5" />
               )}
             </button>
           );
