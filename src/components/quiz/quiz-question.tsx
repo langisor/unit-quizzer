@@ -45,7 +45,7 @@ export default function QuizQuestionCard({
   return (
     <div className="space-y-5" dir="rtl">
       {/* Question card */}
-      <div className="bg-[#1a1813] border border-[#2e2c24] rounded-2xl p-6 shadow-xl">
+      <div className=" border border-[#2e2c24] rounded-2xl p-6 shadow-xl">
         <p className="font-arabic text-white text-lg leading-loose">
           {decode(question.question)}
         </p>
@@ -84,15 +84,15 @@ export default function QuizQuestionCard({
           const isCorrect = option.isCorrect;
           const showResult = state.revealed;
 
-          let cardStyle = "bg-[#1a1813] border-[#2e2c24] hover:border-[#3e3c32] hover:bg-[#201e18]";
+          let cardStyle = "border-[#2e2c24] hover:border-[#3e3c32] hover:bg-[#afafef]";
 
           if (showResult) {
             if (isCorrect) {
-              cardStyle = "bg-emerald-900/20 border-emerald-600/40";
+              cardStyle = "border-emerald-600/40";
             } else if (isSelected && !isCorrect) {
               cardStyle = "bg-red-900/20 border-red-600/40";
             } else {
-              cardStyle = "bg-[#1a1813] border-[#2e2c24] opacity-50";
+              cardStyle = "border-[#2e2c24] opacity-50";
             }
           }
 
@@ -112,7 +112,7 @@ export default function QuizQuestionCard({
                 className={cn(
                   "shrink-0 w-7 h-7 rounded-lg flex items-center justify-center text-sm font-bold mt-0.5 transition-colors",
                   showResult && isCorrect
-                    ? "bg-emerald-500/20 text-emerald-400"
+                    ? "bg-emerald-200/20 text-emerald-400"
                     : showResult && isSelected && !isCorrect
                     ? "bg-red-500/20 text-red-400"
                     : "bg-[#2a2820] text-stone-400"
@@ -123,7 +123,7 @@ export default function QuizQuestionCard({
 
               {/* Text */}
               <div className="flex-1 min-w-0">
-                <p className="font-urdu text-stone-200 leading-loose">
+                <p className="font-arabic leading-loose text-blue-900 text-bold text-lg">
                   {decode(option.text)}
                 </p>
 
