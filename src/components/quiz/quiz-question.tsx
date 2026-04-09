@@ -71,27 +71,27 @@ export default function QuizQuestionCard({
     state.selectedIndex !== null ? question.answerOptions[state.selectedIndex] : null;
 
   return (
-    <div className="space-y-6" dir="rtl">
+    <div className="space-y-4 sm:space-y-6" dir="rtl">
       {/* Question card */}
       <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-        className="bg-linear-to-br from-[#1e1c17] to-[#161410] border border-[#3a3628] rounded-2xl p-6 shadow-xl shadow-black/20"
+        className="bg-gradient-to-br from-[#1e1c17] to-[#161410] border border-[#3a3628] rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-xl shadow-black/20"
       >
-        <p className="font-arabic text-white text-xl leading-relaxed">
+        <p className="font-arabic text-white text-base sm:text-xl leading-relaxed">
           {decode(question.question)}
         </p>
       </motion.div>
 
       {/* Actions row: Hint + Skip */}
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-2 sm:gap-3">
         {/* Hint button */}
         {question.hint && (
           <motion.button
             onClick={onToggleHint}
             className={cn(
-              "flex items-center gap-2 text-sm px-4 py-2 rounded-xl border transition-all duration-300",
+              "flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl border transition-all duration-300",
               state.hintShown
                 ? "bg-amber-500/15 border-amber-500/40 text-amber-400"
                 : "bg-[#1a1813] border-[#2e2c24] text-stone-400 hover:text-amber-400 hover:border-amber-500/30"
@@ -99,9 +99,9 @@ export default function QuizQuestionCard({
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            <Lightbulb className="w-4 h-4" />
+            <Lightbulb className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             <span className="font-arabic">
-              {state.hintShown ? "إخفاء التلميح" : "تلميح"}
+              {state.hintShown ? "إخفاء" : "تلميح"}
             </span>
           </motion.button>
         )}
@@ -111,7 +111,7 @@ export default function QuizQuestionCard({
           onClick={onSkip}
           disabled={state.revealed}
           className={cn(
-            "flex items-center gap-2 text-sm px-4 py-2 rounded-xl border transition-all duration-300",
+            "flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl border transition-all duration-300",
             state.revealed
               ? "bg-[#1a1813]/50 border-[#2e2c24]/50 text-stone-700 cursor-not-allowed"
               : "bg-[#1a1813] border-[#2e2c24] text-stone-400 hover:text-blue-400 hover:border-blue-500/30"
@@ -119,7 +119,7 @@ export default function QuizQuestionCard({
           whileHover={!state.revealed ? { scale: 1.02 } : {}}
           whileTap={!state.revealed ? { scale: 0.98 } : {}}
         >
-          <SkipForward className="w-4 h-4" />
+          <SkipForward className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           <span className="font-arabic">تخطي</span>
         </motion.button>
       </div>
@@ -134,8 +134,8 @@ export default function QuizQuestionCard({
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="overflow-hidden"
           >
-            <div className="px-4 py-3 bg-amber-500/10 border border-amber-500/25 rounded-xl">
-              <p className="font-arabic text-amber-300/90 text-sm leading-relaxed">
+            <div className="px-3 sm:px-4 py-2.5 sm:py-3 bg-amber-500/10 border border-amber-500/25 rounded-lg sm:rounded-xl">
+              <p className="font-arabic text-amber-300/90 text-xs sm:text-sm leading-relaxed">
                 {decode(question.hint)}
               </p>
             </div>
@@ -144,7 +144,7 @@ export default function QuizQuestionCard({
       </AnimatePresence>
 
       {/* Answer options */}
-      <div className="space-y-3">
+      <div className="space-y-2 sm:space-y-3">
         {question.answerOptions.map((option, index) => {
           const isSelected = state.selectedIndex === index;
           const isCorrect = option.isCorrect;
@@ -192,7 +192,7 @@ export default function QuizQuestionCard({
               onClick={() => onSelect(index)}
               disabled={showResult}
               className={cn(
-                "w-full text-right flex items-start gap-4 p-4 rounded-xl border-2 transition-all duration-300",
+                "w-full text-right flex items-start gap-2 sm:gap-3 p-3 sm:p-4 rounded-lg sm:rounded-xl border-2 transition-all duration-300",
                 cardBg,
                 cardBorder,
                 !showResult && "hover:border-amber-500/40 hover:bg-[#201e18] cursor-pointer",
@@ -205,7 +205,7 @@ export default function QuizQuestionCard({
               {/* Label badge */}
               <motion.span
                 className={cn(
-                  "shrink-0 w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold mt-0.5 transition-colors",
+                  "shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center text-xs sm:text-sm font-bold mt-0.5 transition-colors",
                   labelBg,
                   labelText
                 )}
@@ -217,7 +217,7 @@ export default function QuizQuestionCard({
 
               {/* Text */}
               <div className="flex-1 min-w-0">
-                <p className={cn("font-arabic leading-relaxed text-lg", textColor)}>
+                <p className={cn("font-arabic leading-relaxed text-sm sm:text-base sm:text-lg", textColor)}>
                   {decode(option.text)}
                 </p>
 
@@ -231,13 +231,13 @@ export default function QuizQuestionCard({
                       exit="hidden"
                       className="overflow-hidden"
                     >
-                      <div className="mt-3 flex items-start gap-2">
+                      <div className="mt-2 sm:mt-3 flex items-start gap-1.5 sm:gap-2">
                         {isCorrect ? (
-                          <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-400 shrink-0 mt-0.5" />
                         ) : (
-                          <XCircle className="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
+                          <XCircle className="w-4 h-4 sm:w-5 sm:h-5 text-red-400 shrink-0 mt-0.5" />
                         )}
-                        <p className={cn("font-arabic text-sm leading-relaxed", rationaleColor)}>
+                        <p className={cn("font-arabic text-xs sm:text-sm leading-relaxed", rationaleColor)}>
                           {decode(option.rationale)}
                         </p>
                       </div>
@@ -255,9 +255,9 @@ export default function QuizQuestionCard({
                     transition={{ type: "spring", stiffness: 500, damping: 30 }}
                   >
                     {isCorrect ? (
-                      <CheckCircle2 className="w-6 h-6 text-emerald-400" />
+                      <CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-400" />
                     ) : (
-                      <XCircle className="w-6 h-6 text-red-400" />
+                      <XCircle className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" />
                     )}
                   </motion.div>
                 )}
@@ -276,7 +276,7 @@ export default function QuizQuestionCard({
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             className={cn(
-              "flex items-center justify-center gap-3 px-5 py-4 rounded-xl border-2 text-base font-arabic font-medium",
+              "flex items-center justify-center gap-2 sm:gap-3 px-3 sm:px-5 py-3 sm:py-4 rounded-lg sm:rounded-xl border-2 text-sm sm:text-base font-arabic font-medium",
               selectedOption.isCorrect
                 ? "bg-emerald-950/50 border-emerald-500/40 text-emerald-300"
                 : "bg-red-950/50 border-red-500/40 text-red-300"
@@ -286,18 +286,18 @@ export default function QuizQuestionCard({
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.1, type: "spring", stiffness: 500 }}
-              className="text-2xl"
+              className="text-xl sm:text-2xl"
             >
               {selectedOption.isCorrect ? "✓" : "✗"}
             </motion.span>
-            <span>{selectedOption.isCorrect ? "إجابة صحيحة! أحسنت" : "ليست الإجابة الصحيحة"}</span>
+            <span className="hidden xs:inline">{selectedOption.isCorrect ? "إجابة صحيحة! أحسنت" : "ليست الإجابة الصحيحة"}</span>
           </motion.div>
         )}
       </AnimatePresence>
 
       {/* Navigation */}
       <motion.div
-        className="flex items-center justify-between pt-4"
+        className="flex items-center justify-between pt-2 sm:pt-4"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
@@ -306,7 +306,7 @@ export default function QuizQuestionCard({
           onClick={onPrev}
           disabled={isFirst}
           className={cn(
-            "flex items-center gap-2 px-5 py-2.5 rounded-xl border text-sm font-arabic transition-all duration-200",
+            "flex items-center gap-1 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-lg sm:rounded-xl border text-xs sm:text-sm font-arabic transition-all duration-200",
             isFirst
               ? "border-[#2a2820] text-stone-700 cursor-not-allowed"
               : "border-[#2e2c24] text-stone-400 hover:text-white hover:border-[#3e3c32] hover:bg-[#201e18]"
@@ -314,24 +314,24 @@ export default function QuizQuestionCard({
           whileHover={!isFirst ? { scale: 1.05, x: 4 } : {}}
           whileTap={!isFirst ? { scale: 0.95 } : {}}
         >
-          <ChevronRight className="w-5 h-5" />
-          السابق
+          <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
+          <span className="hidden sm:inline">السابق</span>
         </motion.button>
 
         <motion.button
           onClick={onNext}
           disabled={!state.revealed}
           className={cn(
-            "flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-arabic font-semibold transition-all duration-300",
+            "flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg sm:rounded-xl text-xs sm:text-sm font-arabic font-semibold transition-all duration-300",
             state.revealed
-              ? "bg-linear-to-r from-amber-500 to-amber-400 text-[#0f0e0b] shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:from-amber-400 hover:to-amber-300"
+              ? "bg-gradient-to-r from-amber-500 to-amber-400 text-[#0f0e0b] shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:from-amber-400 hover:to-amber-300"
               : "bg-[#1a1813] border border-[#2e2c24] text-stone-600 cursor-not-allowed"
           )}
           whileHover={state.revealed ? { scale: 1.05 } : {}}
           whileTap={state.revealed ? { scale: 0.95 } : {}}
         >
-          {isLast ? "عرض النتائج" : "التالي"}
-          <ChevronLeft className="w-5 h-5" />
+          {isLast ? "النتائج" : "التالي"}
+          <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
         </motion.button>
       </motion.div>
     </div>
