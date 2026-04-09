@@ -75,7 +75,7 @@ export default function QuizQuestionCard({
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-        className="bg-gradient-to-br from-[#1e1c17] to-[#161410] border border-[#3a3628] rounded-2xl p-6 shadow-xl shadow-black/20"
+        className="bg-linear-to-br from-[#1e1c17] to-[#161410] border border-[#3a3628] rounded-2xl p-6 shadow-xl shadow-black/20"
       >
         <p className="font-arabic text-white text-xl leading-relaxed">
           {decode(question.question)}
@@ -309,7 +309,7 @@ export default function QuizQuestionCard({
           className={cn(
             "flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-arabic font-semibold transition-all duration-300",
             state.revealed
-              ? "bg-gradient-to-r from-amber-500 to-amber-400 text-[#0f0e0b] shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:from-amber-400 hover:to-amber-300"
+              ? "bg-linear-to-r from-amber-500 to-amber-400 text-[#0f0e0b] shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:from-amber-400 hover:to-amber-300"
               : "bg-[#1a1813] border border-[#2e2c24] text-stone-600 cursor-not-allowed"
           )}
           whileHover={state.revealed ? { scale: 1.05 } : {}}

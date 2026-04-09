@@ -126,7 +126,7 @@ export default function UnitQuizzer({
               exit={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             >
-              <div className="bg-gradient-to-b from-[#1e1c17] to-[#141210] border border-[#2e2c24] rounded-2xl p-6 shadow-2xl shadow-black/30">
+              <div className="bg-linear-to-b from-[#1e1c17] to-[#141210] border border-[#2e2c24] rounded-2xl p-6 shadow-2xl shadow-black/30">
                 <QuizQuestionCard
                   question={current}
                   state={currentState}
