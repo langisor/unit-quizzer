@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Noto_Naskh_Arabic, Noto_Nastaliq_Urdu } from "next/font/google";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
 
+const notoNaskhArabic = Noto_Naskh_Arabic({
+  subsets: ["arabic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-naskh",
+  display: "swap",
+});
+
+const notoNastaliqUrdu = Noto_Nastaliq_Urdu({
+  subsets: ["arabic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-nastaliq",
+  display: "swap",
+});
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,9 +40,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${notoNaskhArabic.variable} ${notoNastaliqUrdu.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <TooltipProvider>{children}</TooltipProvider>
+      </body>
     </html>
   );
 }
