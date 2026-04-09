@@ -1,7 +1,7 @@
 "use client";
 
-import { Lightbulb, ChevronRight, ChevronLeft, CheckCircle2, XCircle } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { Lightbulb, ChevronRight, ChevronLeft, CheckCircle2, XCircle, SkipForward } from "lucide-react";
+import { motion, AnimatePresence, type Variants } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { QuizQuestion as QuizQuestionType } from "@/types/quiz";
 import { AnswerState } from "@/components/unit-quizzer/unit-quizzer";
@@ -13,6 +13,7 @@ interface QuizQuestionProps {
   state: AnswerState;
   questionNumber: number;
   onSelect: (index: number) => void;
+  onSkip: () => void;
   onToggleHint: () => void;
   onNext: () => void;
   onPrev: () => void;
@@ -20,7 +21,7 @@ interface QuizQuestionProps {
   isLast: boolean;
 }
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: (i: number) => ({
     opacity: 1,
@@ -28,12 +29,12 @@ const cardVariants = {
     transition: {
       delay: i * 0.1,
       duration: 0.4,
-      ease: [0.22, 1, 0.36, 1],
+      ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
     },
   }),
 };
 
-const expandVariants = {
+const expandVariants: Variants = {
   hidden: { height: 0, opacity: 0, marginTop: 0 },
   visible: {
     height: "auto",
@@ -51,6 +52,7 @@ export default function QuizQuestionCard({
   state,
   questionNumber,
   onSelect,
+  onSkip,
   onToggleHint,
   onNext,
   onPrev,
@@ -82,48 +84,61 @@ export default function QuizQuestionCard({
         </p>
       </motion.div>
 
-      {/* Hint */}
-      <AnimatePresence>
+      {/* Actions row: Hint + Skip */}
+      <div className="flex items-center gap-3">
+        {/* Hint button */}
         {question.hint && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+          <motion.button
+            onClick={onToggleHint}
+            className={cn(
+              "flex items-center gap-2 text-sm px-4 py-2 rounded-xl border transition-all duration-300",
+              state.hintShown
+                ? "bg-amber-500/15 border-amber-500/40 text-amber-400"
+                : "bg-[#1a1813] border-[#2e2c24] text-stone-400 hover:text-amber-400 hover:border-amber-500/30"
+            )}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
           >
-            <motion.button
-              onClick={onToggleHint}
-              className={cn(
-                "flex items-center gap-2 text-sm px-4 py-2 rounded-xl border transition-all duration-300",
-                state.hintShown
-                  ? "bg-amber-500/15 border-amber-500/40 text-amber-400"
-                  : "bg-[#1a1813] border-[#2e2c24] text-stone-400 hover:text-amber-400 hover:border-amber-500/30"
-              )}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              <Lightbulb className="w-4 h-4" />
-              <span className="font-arabic">
-                {state.hintShown ? "إخفاء التلميح" : "تلميح"}
-              </span>
-            </motion.button>
+            <Lightbulb className="w-4 h-4" />
+            <span className="font-arabic">
+              {state.hintShown ? "إخفاء التلميح" : "تلميح"}
+            </span>
+          </motion.button>
+        )}
 
-            <AnimatePresence>
-              {state.hintShown && (
-                <motion.div
-                  initial={{ opacity: 0, height: 0, marginTop: 0 }}
-                  animate={{ opacity: 1, height: "auto", marginTop: 8 }}
-                  exit={{ opacity: 0, height: 0, marginTop: 0 }}
-                  transition={{ duration: 0.3, ease: "easeOut" }}
-                  className="overflow-hidden"
-                >
-                  <div className="px-4 py-3 bg-amber-500/10 border border-amber-500/25 rounded-xl">
-                    <p className="font-arabic text-amber-300/90 text-sm leading-relaxed">
-                      {decode(question.hint)}
-                    </p>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
+        {/* Skip button */}
+        <motion.button
+          onClick={onSkip}
+          disabled={state.revealed}
+          className={cn(
+            "flex items-center gap-2 text-sm px-4 py-2 rounded-xl border transition-all duration-300",
+            state.revealed
+              ? "bg-[#1a1813]/50 border-[#2e2c24]/50 text-stone-700 cursor-not-allowed"
+              : "bg-[#1a1813] border-[#2e2c24] text-stone-400 hover:text-blue-400 hover:border-blue-500/30"
+          )}
+          whileHover={!state.revealed ? { scale: 1.02 } : {}}
+          whileTap={!state.revealed ? { scale: 0.98 } : {}}
+        >
+          <SkipForward className="w-4 h-4" />
+          <span className="font-arabic">تخطي</span>
+        </motion.button>
+      </div>
+
+      {/* Hint content */}
+      <AnimatePresence>
+        {question.hint && state.hintShown && (
+          <motion.div
+            initial={{ opacity: 0, height: 0, marginTop: 0 }}
+            animate={{ opacity: 1, height: "auto", marginTop: 8 }}
+            exit={{ opacity: 0, height: 0, marginTop: 0 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+            className="overflow-hidden"
+          >
+            <div className="px-4 py-3 bg-amber-500/10 border border-amber-500/25 rounded-xl">
+              <p className="font-arabic text-amber-300/90 text-sm leading-relaxed">
+                {decode(question.hint)}
+              </p>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -171,7 +186,7 @@ export default function QuizQuestionCard({
             <motion.button
               key={index}
               custom={index}
-              variants={cardVariants as any}
+              variants={cardVariants}
               initial="hidden"
               animate="visible"
               onClick={() => onSelect(index)}
@@ -210,7 +225,7 @@ export default function QuizQuestionCard({
                 <AnimatePresence>
                   {showResult && (
                     <motion.div
-                      variants={expandVariants as any}
+                      variants={expandVariants}
                       initial="hidden"
                       animate="visible"
                       exit="hidden"
