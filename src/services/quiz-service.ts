@@ -1,5 +1,5 @@
 import { QuizData } from "@/types/quiz";
-import { quizRepository } from "@/lib/repositories/quiz-repository";
+import { quizRepository } from "@/repositories/quiz-repository";
 
 export interface QuizMetadata {
   filename: string;

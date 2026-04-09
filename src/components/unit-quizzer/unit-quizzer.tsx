@@ -18,31 +18,14 @@ export type AnswerState = {
   hintShown: boolean;
 };
 
-function shuffleArray<T>(array: T[]): T[] {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
-
-function shuffleQuiz(questions: QuizQuestion[]): QuizQuestion[] {
-  return shuffleArray(questions).map((q) => ({
-    ...q,
-    answerOptions: shuffleArray(q.answerOptions),
-  }));
-}
-
 export default function UnitQuizzer({
   quiz,
   unitTitle = "اختبار الوحدة",
 }: UnitQuizzerProps) {
-  const [shuffledQuiz] = useState(() => shuffleQuiz(quiz));
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answerStates, setAnswerStates] = useState<AnswerState[]>(
-    shuffledQuiz.map(() => ({
+    quiz.map(() => ({
       selectedIndex: null,
       revealed: false,
       hintShown: false,
@@ -50,7 +33,7 @@ export default function UnitQuizzer({
   );
   const [finished, setFinished] = useState(false);
 
-  const current = shuffledQuiz[currentIndex];
+  const current = quiz[currentIndex];
   const currentState = answerStates[currentIndex];
 
   const totalAnswered = answerStates.filter((s) => s.revealed).length;
@@ -58,7 +41,7 @@ export default function UnitQuizzer({
     (s, i) =>
       s.revealed &&
       s.selectedIndex !== null &&
-      shuffledQuiz[i].answerOptions[s.selectedIndex].isCorrect,
+      quiz[i].answerOptions[s.selectedIndex].isCorrect,
   ).length;
 
   const handleSelect = useCallback(
@@ -86,13 +69,13 @@ export default function UnitQuizzer({
       ),
     );
     setTimeout(() => {
-      if (currentIndex < shuffledQuiz.length - 1) {
+      if (currentIndex < quiz.length - 1) {
         setCurrentIndex((i) => i + 1);
       } else {
         setFinished(true);
       }
     }, 500);
-  }, [currentIndex, currentState.revealed, current, shuffledQuiz.length]);
+  }, [currentIndex, currentState.revealed, current, quiz.length]);
 
   const handleToggleHint = useCallback(() => {
     setAnswerStates((prev) =>
@@ -103,12 +86,12 @@ export default function UnitQuizzer({
   }, [currentIndex]);
 
   const handleNext = useCallback(() => {
-    if (currentIndex < shuffledQuiz.length - 1) {
+    if (currentIndex < quiz.length - 1) {
       setCurrentIndex((i) => i + 1);
     } else {
       setFinished(true);
     }
-  }, [currentIndex, shuffledQuiz.length]);
+  }, [currentIndex, quiz.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) setCurrentIndex((i) => i - 1);
@@ -117,14 +100,14 @@ export default function UnitQuizzer({
   const handleRestart = useCallback(() => {
     setCurrentIndex(0);
     setAnswerStates(
-      shuffledQuiz.map(() => ({
+      quiz.map(() => ({
         selectedIndex: null,
         revealed: false,
         hintShown: false,
       })),
     );
     setFinished(false);
-  }, [shuffledQuiz]);
+  }, [quiz]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -139,12 +122,12 @@ export default function UnitQuizzer({
   if (finished) {
     return (
       <QuizResults
-        total={shuffledQuiz.length}
+        total={quiz.length}
         correct={totalCorrect}
         onRestart={handleRestart}
         unitTitle={unitTitle}
         answerStates={answerStates}
-        quiz={shuffledQuiz}
+        quiz={quiz}
         onReviewQuestion={(i) => {
           setCurrentIndex(i);
           setFinished(false);
@@ -157,7 +140,7 @@ export default function UnitQuizzer({
     <div className="min-h-screen bg-[#0f0e0b] flex flex-col">
       <QuizHeader
         currentIndex={currentIndex}
-        total={shuffledQuiz.length}
+        total={quiz.length}
         unitTitle={unitTitle}
         correctSoFar={totalCorrect}
         answeredSoFar={totalAnswered}
@@ -184,7 +167,7 @@ export default function UnitQuizzer({
                   onNext={handleNext}
                   onPrev={handlePrev}
                   isFirst={currentIndex === 0}
-                  isLast={currentIndex === shuffledQuiz.length - 1}
+                  isLast={currentIndex === quiz.length - 1}
                 />
               </div>
             </motion.div>
