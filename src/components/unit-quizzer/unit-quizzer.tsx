@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { QuizQuestion } from "@/types/quiz";
 import QuizHeader from "@/components/quiz/quiz-header";
 import QuizQuestionCard from "@/components/quiz/quiz-question";
@@ -117,17 +118,29 @@ export default function UnitQuizzer({
 
       <div className="flex-1 flex items-start justify-center px-4 py-8">
         <div className="w-full max-w-2xl">
-          <QuizQuestionCard
-            question={current}
-            state={currentState}
-            questionNumber={currentIndex + 1}
-            onSelect={handleSelect}
-            onToggleHint={handleToggleHint}
-            onNext={handleNext}
-            onPrev={handlePrev}
-            isFirst={currentIndex === 0}
-            isLast={currentIndex === quiz.length - 1}
-          />
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentIndex}
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -50 }}
+              transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <div className="bg-gradient-to-b from-[#1e1c17] to-[#141210] border border-[#2e2c24] rounded-2xl p-6 shadow-2xl shadow-black/30">
+                <QuizQuestionCard
+                  question={current}
+                  state={currentState}
+                  questionNumber={currentIndex + 1}
+                  onSelect={handleSelect}
+                  onToggleHint={handleToggleHint}
+                  onNext={handleNext}
+                  onPrev={handlePrev}
+                  isFirst={currentIndex === 0}
+                  isLast={currentIndex === quiz.length - 1}
+                />
+              </div>
+            </motion.div>
+          </AnimatePresence>
         </div>
       </div>
     </div>
