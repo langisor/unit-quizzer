@@ -164,14 +164,14 @@ export default function UnitQuizzer({
 
   if (!isClient) {
     return (
-      <div className="min-h-screen bg-[#0f0e0b] flex items-center justify-center">
-        <div className="animate-pulse text-stone-500 font-arabic">جاري التحميل...</div>
+      <div className="min-h-screen min-h-[100dvh] bg-[#0f0e0b] flex items-center justify-center safe-area-inset">
+        <div className="animate-pulse text-stone-500 font-arabic text-sm">جاري التحميل...</div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-[#0f0e0b] flex flex-col">
+    <div className="min-h-screen min-h-[100dvh] bg-[#0f0e0b] flex flex-col safe-area-inset">
       <QuizHeader
         currentIndex={currentIndex}
         total={displayQuiz.length}
@@ -180,7 +180,7 @@ export default function UnitQuizzer({
         answeredSoFar={totalAnswered}
       />
 
-      <div className="flex-1 flex items-start justify-center px-3 sm:px-4 py-4 sm:py-8">
+      <div className="flex-1 flex items-start justify-center px-3 sm:px-4 py-3 sm:py-6 pb-safe">
         <div className="w-full max-w-2xl">
           <AnimatePresence mode="wait">
             <motion.div
@@ -190,7 +190,7 @@ export default function UnitQuizzer({
               exit={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             >
-              <div className="bg-gradient-to-b from-[#1e1c17] to-[#141210] border border-[#2e2c24] rounded-2xl p-4 sm:p-6 shadow-2xl shadow-black/30">
+              <div className="bg-gradient-to-b from-[#1e1c17] to-[#141210] border border-[#2e2c24] rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-xl sm:shadow-2xl shadow-black/20 sm:shadow-black/30">
                 <QuizQuestionCard
                   question={current}
                   state={currentState}
