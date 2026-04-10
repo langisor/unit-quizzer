@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect, useMemo } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { QuizQuestion } from "@/types/quiz";
 import QuizHeader from "@/components/quiz/quiz-header";
@@ -34,15 +34,22 @@ function shuffleQuiz(questions: QuizQuestion[]): QuizQuestion[] {
   }));
 }
 
+function getInitialState(quiz: QuizQuestion[]) {
+  if (typeof window === "undefined") {
+    return { quiz: quiz, isClient: false };
+  }
+  return { quiz: shuffleQuiz(quiz), isClient: true };
+}
+
 export default function UnitQuizzer({
   quiz,
   unitTitle = "اختبار الوحدة",
 }: UnitQuizzerProps) {
-  const shuffledQuiz = useMemo(() => shuffleQuiz(quiz), [quiz]);
+  const [{ quiz: displayQuiz, isClient }, setState] = useState(() => getInitialState(quiz));
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answerStates, setAnswerStates] = useState<AnswerState[]>(
-    shuffledQuiz.map(() => ({
+    displayQuiz.map(() => ({
       selectedIndex: null,
       revealed: false,
       hintShown: false,
@@ -50,7 +57,7 @@ export default function UnitQuizzer({
   );
   const [finished, setFinished] = useState(false);
 
-  const current = shuffledQuiz[currentIndex];
+  const current = displayQuiz[currentIndex];
   const currentState = answerStates[currentIndex];
 
   const totalAnswered = answerStates.filter((s) => s.revealed).length;
@@ -58,7 +65,7 @@ export default function UnitQuizzer({
     (s, i) =>
       s.revealed &&
       s.selectedIndex !== null &&
-      shuffledQuiz[i].answerOptions[s.selectedIndex].isCorrect,
+      displayQuiz[i].answerOptions[s.selectedIndex].isCorrect,
   ).length;
 
   const handleSelect = useCallback(
@@ -86,13 +93,13 @@ export default function UnitQuizzer({
       ),
     );
     setTimeout(() => {
-      if (currentIndex < shuffledQuiz.length - 1) {
+      if (currentIndex < displayQuiz.length - 1) {
         setCurrentIndex((i) => i + 1);
       } else {
         setFinished(true);
       }
     }, 500);
-  }, [currentIndex, currentState.revealed, current, shuffledQuiz.length]);
+  }, [currentIndex, currentState.revealed, current, displayQuiz.length]);
 
   const handleToggleHint = useCallback(() => {
     setAnswerStates((prev) =>
@@ -103,28 +110,30 @@ export default function UnitQuizzer({
   }, [currentIndex]);
 
   const handleNext = useCallback(() => {
-    if (currentIndex < shuffledQuiz.length - 1) {
+    if (currentIndex < displayQuiz.length - 1) {
       setCurrentIndex((i) => i + 1);
     } else {
       setFinished(true);
     }
-  }, [currentIndex, shuffledQuiz.length]);
+  }, [currentIndex, displayQuiz.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) setCurrentIndex((i) => i - 1);
   }, [currentIndex]);
 
   const handleRestart = useCallback(() => {
-    setCurrentIndex(0);
+    const shuffled = shuffleQuiz(quiz);
+    setState({ quiz: shuffled, isClient: true });
     setAnswerStates(
-      shuffledQuiz.map(() => ({
+      shuffled.map(() => ({
         selectedIndex: null,
         revealed: false,
         hintShown: false,
       })),
     );
+    setCurrentIndex(0);
     setFinished(false);
-  }, [shuffledQuiz]);
+  }, [quiz]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -139,12 +148,12 @@ export default function UnitQuizzer({
   if (finished) {
     return (
       <QuizResults
-        total={shuffledQuiz.length}
+        total={displayQuiz.length}
         correct={totalCorrect}
         onRestart={handleRestart}
         unitTitle={unitTitle}
         answerStates={answerStates}
-        quiz={shuffledQuiz}
+        quiz={displayQuiz}
         onReviewQuestion={(i) => {
           setCurrentIndex(i);
           setFinished(false);
@@ -153,11 +162,19 @@ export default function UnitQuizzer({
     );
   }
 
+  if (!isClient) {
+    return (
+      <div className="min-h-screen bg-[#0f0e0b] flex items-center justify-center">
+        <div className="animate-pulse text-stone-500 font-arabic">جاري التحميل...</div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-[#0f0e0b] flex flex-col">
       <QuizHeader
         currentIndex={currentIndex}
-        total={shuffledQuiz.length}
+        total={displayQuiz.length}
         unitTitle={unitTitle}
         correctSoFar={totalCorrect}
         answeredSoFar={totalAnswered}
@@ -184,7 +201,7 @@ export default function UnitQuizzer({
                   onNext={handleNext}
                   onPrev={handlePrev}
                   isFirst={currentIndex === 0}
-                  isLast={currentIndex === shuffledQuiz.length - 1}
+                  isLast={currentIndex === displayQuiz.length - 1}
                 />
               </div>
             </motion.div>
