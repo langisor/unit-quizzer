@@ -2,10 +2,10 @@
 
 import { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { QuizQuestion } from "@/types/quiz";
-import QuizHeader from "@/components/quiz/quiz-header";
-import QuizQuestionCard from "@/components/quiz/quiz-question";
-import QuizResults from "@/components/quiz/quiz-results";
+import { QuizQuestion } from "@/unit-quizzer/types/quiz.types";
+import QuizHeader from "@/unit-quizzer/components/quiz-header";
+import QuizQuestionCard from "@/unit-quizzer/components/quiz-question";
+import QuizResults from "@/unit-quizzer/components/quiz-results";
 
 interface UnitQuizzerProps {
   quiz: QuizQuestion[];
@@ -41,7 +41,7 @@ function getInitialState(quiz: QuizQuestion[]) {
   return { quiz: shuffleQuiz(quiz), isClient: true };
 }
 
-export default function UnitQuizzer({
+export  function UnitQuizzer({
   quiz,
   unitTitle = "اختبار الوحدة",
 }: UnitQuizzerProps) {
