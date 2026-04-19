@@ -3,7 +3,7 @@ import { Noun } from "@/quizzers/types/noun.types";
 import { JSONProvider } from "@/quizzers/json-provider/json.provider";
 
 export class NounsRepository extends BaseRepository<Noun> {
-  private readonly file_path = "src/data/nouns.json";
+  private readonly file_path = "src/quizzers/data/nouns.json";
 
   async getAll(): Promise<Noun[]> {
     return JSONProvider.load<Noun[]>(this.file_path);
