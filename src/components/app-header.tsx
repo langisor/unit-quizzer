@@ -17,9 +17,7 @@ export function AppHeader() {
   const isMobile = useIsMobile();
   const pathname = usePathname();
 
-  if (pathname?.startsWith("/unit-quizzer") || pathname?.startsWith("/nouns-quizzer")) {
-    return null;
-  }
+  // Always show header on all routes
 
   return (
     <header className="sticky top-0 z-50 w-full bg-[#0f0e0b]/95 backdrop-blur-md border-b border-[#2a2820]">

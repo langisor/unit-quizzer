@@ -3,7 +3,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { QuizQuestion } from "@/quizzers/types/quiz.types";
-import QuizHeader from "@/quizzers/components/quiz-header";
 import QuizQuestionCard from "@/quizzers/components/quiz-question";
 import QuizResults from "@/quizzers/components/quiz-results";
 
@@ -177,14 +176,6 @@ export function UnitQuizzer({
 
   return (
     <div className="min-h-screen min-h-[100dvh] bg-[#0f0e0b] flex flex-col safe-area-inset">
-      <QuizHeader
-        currentIndex={currentIndex}
-        total={displayQuiz.length}
-        unitTitle={unitTitle}
-        correctSoFar={totalCorrect}
-        answeredSoFar={totalAnswered}
-      />
-
       <div className="flex-1 flex items-start justify-center px-3 sm:px-4 py-3 sm:py-6 pb-safe">
         <div className="w-full max-w-2xl">
           <AnimatePresence mode="wait">
