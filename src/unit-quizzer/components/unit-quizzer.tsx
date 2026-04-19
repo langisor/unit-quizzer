@@ -34,26 +34,31 @@ function shuffleQuiz(questions: QuizQuestion[]): QuizQuestion[] {
   }));
 }
 
-function getInitialState(quiz: QuizQuestion[]) {
-  if (typeof window === "undefined") {
-    return { quiz: quiz, isClient: false };
-  }
-  return { quiz: shuffleQuiz(quiz), isClient: true };
+function useIsMounted() {
+  const [mounted, setMounted] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMounted(true), []);
+  return mounted;
 }
 
-export  function UnitQuizzer({
+export function UnitQuizzer({
   quiz,
   unitTitle = "اختبار الوحدة",
 }: UnitQuizzerProps) {
-  const [{ quiz: displayQuiz, isClient }, setState] = useState(() => getInitialState(quiz));
+  const isMounted = useIsMounted();
+  const [displayQuiz, setDisplayQuiz] = useState<QuizQuestion[]>(quiz);
+
+  useEffect(() => {
+    setDisplayQuiz(shuffleQuiz(quiz));
+  }, [quiz]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answerStates, setAnswerStates] = useState<AnswerState[]>(
-    displayQuiz.map(() => ({
+    () => quiz.map(() => ({
       selectedIndex: null,
       revealed: false,
       hintShown: false,
-    })),
+    }))
   );
   const [finished, setFinished] = useState(false);
 
@@ -123,7 +128,7 @@ export  function UnitQuizzer({
 
   const handleRestart = useCallback(() => {
     const shuffled = shuffleQuiz(quiz);
-    setState({ quiz: shuffled, isClient: true });
+    setDisplayQuiz(shuffled);
     setAnswerStates(
       shuffled.map(() => ({
         selectedIndex: null,
@@ -162,7 +167,7 @@ export  function UnitQuizzer({
     );
   }
 
-  if (!isClient) {
+  if (!isMounted) {
     return (
       <div className="min-h-screen min-h-[100dvh] bg-[#0f0e0b] flex items-center justify-center safe-area-inset">
         <div className="animate-pulse text-stone-500 font-arabic text-sm">جاري التحميل...</div>
