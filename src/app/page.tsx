@@ -1,5 +1,5 @@
  
-import { UnitQuizzer } from "@/unit-quizzer/components/unit-quizzer";
+import { UnitQuizzer } from "@/quizzers/components/unit-quizzer";
 
 export default function Home() {
   return (

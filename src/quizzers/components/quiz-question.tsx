@@ -3,8 +3,8 @@
 import { Lightbulb, ChevronRight, ChevronLeft, CheckCircle2, XCircle, SkipForward } from "lucide-react";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { QuizQuestion as QuizQuestionType } from "@/unit-quizzer/types/quiz.types";
-import { AnswerState } from "@/unit-quizzer/components/unit-quizzer";
+import { QuizQuestion as QuizQuestionType } from "@/quizzers/types/quiz.types";
+import { AnswerState } from "@/quizzers/components/unit-quizzer";
 
 const OPTION_LABELS = ["أ", "ب", "ج", "د"];
 

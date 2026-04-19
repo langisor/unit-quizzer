@@ -3,8 +3,8 @@
 import { Trophy, RefreshCw, ChevronLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { QuizQuestion } from "@/unit-quizzer/types/quiz.types";
-import { AnswerState } from "@/unit-quizzer/components/unit-quizzer";
+import { QuizQuestion } from "@/quizzers/types/quiz.types";
+import { AnswerState } from "@/quizzers/components/unit-quizzer";
 
 interface QuizResultsProps {
   total: number;

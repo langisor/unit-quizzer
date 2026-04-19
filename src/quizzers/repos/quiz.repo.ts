@@ -1,6 +1,6 @@
 import { BaseRepository } from "./base.repo";
-import { QuizQuestion } from "@/unit-quizzer/types/quiz.types";
-import { JSONProvider } from "@/unit-quizzer/json-provider/json.provider";
+import { QuizQuestion } from "@/quizzers/types/quiz.types";
+import { JSONProvider } from "@/quizzers/json-provider/json.provider";
 
 export class QuizRepository extends BaseRepository<QuizQuestion> {
   private readonly file_path = "src/unit-quizzer/data/unit-1-test.json";

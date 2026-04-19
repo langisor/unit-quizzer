@@ -1,5 +1,5 @@
-import { quizService } from "@/unit-quizzer/services/quiz.services";
-import { UnitQuizzer } from "@/unit-quizzer/components/unit-quizzer";
+import { quizService } from "@/quizzers/services/quiz.services";
+import { UnitQuizzer } from "@/quizzers/components/unit-quizzer";
  
 export default async function Home() {
   const quizzes = await quizService.getAll();

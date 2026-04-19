@@ -2,10 +2,10 @@
 
 import { useState, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { QuizQuestion } from "@/unit-quizzer/types/quiz.types";
-import QuizHeader from "@/unit-quizzer/components/quiz-header";
-import QuizQuestionCard from "@/unit-quizzer/components/quiz-question";
-import QuizResults from "@/unit-quizzer/components/quiz-results";
+import { QuizQuestion } from "@/quizzers/types/quiz.types";
+import QuizHeader from "@/quizzers/components/quiz-header";
+import QuizQuestionCard from "@/quizzers/components/quiz-question";
+import QuizResults from "@/quizzers/components/quiz-results";
 
 interface UnitQuizzerProps {
   quiz: QuizQuestion[];
