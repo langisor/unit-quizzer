@@ -1,2802 +1,2802 @@
 [
-{
-"rank": 1,
-"noun_urdu": "آدمی",
-"gender": "M",
-"singular": "آدمی",
-"plural": "آدمی",
-"roman_scholarly": "ādmī",
-"meaning_en": "man",
-"note": "Invariant in the nominative plural.",
-"example": {
-"urdu": "وہ ایک نیک آدمی ہے۔",
-"english": "He is a virtuous man."
-}
-},
-{
-"rank": 2,
-"noun_urdu": "کتاب",
-"gender": "F",
-"singular": "کتاب",
-"plural": "کتابیں",
-"roman_scholarly": "kitāb",
-"meaning_en": "book",
-"note": "Standard feminine noun ending in a consonant.",
-"example": {
-"urdu": "میز پر ایک کتاب رکھی ہے۔",
-"english": "A book is kept on the table."
-}
-},
-{
-"rank": 3,
-"noun_urdu": "لڑکا",
-"gender": "M",
-"singular": "لڑکا",
-"plural": "لڑکے",
-"roman_scholarly": "laṛkā",
-"meaning_en": "boy",
-"note": "Standard masculine noun ending in 'ā'.",
-"example": {
-"urdu": "لڑکا سکول جا رہا ہے۔",
-"english": "The boy is going to school."
-}
-},
-{
-"rank": 4,
-"noun_urdu": "لڑکی",
-"gender": "F",
-"singular": "لڑکی",
-"plural": "لڑکیاں",
-"roman_scholarly": "laṛkī",
-"meaning_en": "girl",
-"note": "Standard feminine noun ending in 'ī'.",
-"example": {
-"urdu": "لڑکی گڑیا سے کھیل رہی ہے۔",
-"english": "The girl is playing with a doll."
-}
-},
-{
-"rank": 5,
-"noun_urdu": "گھر",
-"gender": "M",
-"singular": "گھر",
-"plural": "گھر",
-"roman_scholarly": "ghar",
-"meaning_en": "house / home",
-"note": "Consonant-ending masculine noun, invariant in nominative plural.",
-"example": {
-"urdu": "میرا گھر بہت بڑا ہے۔",
-"english": "My house is very big."
-}
-},
-{
-"rank": 6,
-"noun_urdu": "بات",
-"gender": "F",
-"singular": "بات",
-"plural": "باتیں",
-"roman_scholarly": "bāt",
-"meaning_en": "matter / word / thing said",
-"note": "Abstract feminine noun.",
-"example": {
-"urdu": "میری بات غور سے سنو۔",
-"english": "Listen to my words carefully."
-}
-},
-{
-"rank": 7,
-"noun_urdu": "وقت",
-"gender": "M",
-"singular": "وقت",
-"plural": "اوقات",
-"roman_scholarly": "vaqt",
-"meaning_en": "time",
-"note": "Plural 'auqāt' is used, but 'vaqt' is also used collectively.",
-"example": {
-"urdu": "وقت کسی کا انتظار نہیں کرتا۔",
-"english": "Time waits for no one."
-}
-},
-{
-"rank": 8,
-"noun_urdu": "پانی",
-"gender": "M",
-"singular": "پانی",
-"plural": null,
-"roman_scholarly": "pānī",
-"meaning_en": "water",
-"note": "Mass noun; masculine despite ending in 'ī'.",
-"example": {
-"urdu": "مجھے ایک گلاس پانی چاہیے۔",
-"english": "I want a glass of water."
-}
-},
-{
-"rank": 9,
-"noun_urdu": "دن",
-"gender": "M",
-"singular": "دن",
-"plural": "دن",
-"roman_scholarly": "din",
-"meaning_en": "day",
-"note": "Masculine consonant-ending noun.",
-"example": {
-"urdu": "آج کا دن بہت گرم ہے۔",
-"english": "Today is a very hot day."
-}
-},
-{
-"rank": 10,
-"noun_urdu": "رات",
-"gender": "F",
-"singular": "رات",
-"plural": "راتیں",
-"roman_scholarly": "rāt",
-"meaning_en": "night",
-"note": "Feminine noun ending in a consonant.",
-"example": {
-"urdu": "رات بہت اندھیری ہے۔",
-"english": "The night is very dark."
-}
-},
-{
-"rank": 11,
-"noun_urdu": "شہر",
-"gender": "M",
-"singular": "شہر",
-"plural": "شہر",
-"roman_scholarly": "shahr",
-"meaning_en": "city",
-"note": "Invariant nominative plural.",
-"example": {
-"urdu": "یہ شہر بہت پرانا ہے۔",
-"english": "This city is very old."
-}
-},
-{
-"rank": 12,
-"noun_urdu": "آنکھ",
-"gender": "F",
-"singular": "آنکھ",
-"plural": "آنکھیں",
-"roman_scholarly": "āṅkh",
-"meaning_en": "eye",
-"note": "Anatomy, feminine.",
-"example": {
-"urdu": "اس کی آنکھیں نیلی ہیں۔",
-"english": "Her eyes are blue."
-}
-},
-{
-"rank": 13,
-"noun_urdu": "ہاتھ",
-"gender": "M",
-"singular": "ہاتھ",
-"plural": "ہاتھ",
-"roman_scholarly": "hāth",
-"meaning_en": "hand",
-"note": "Anatomy, masculine invariant.",
-"example": {
-"urdu": "اپنے ہاتھ دھو لیں۔",
-"english": "Wash your hands."
-}
-},
-{
-"rank": 14,
-"noun_urdu": "زندگی",
-"gender": "F",
-"singular": "زندگی",
-"plural": null,
-"roman_scholarly": "ziṅdagī",
-"meaning_en": "life",
-"note": "Abstract noun.",
-"example": {
-"urdu": "زندگی بہت خوبصورت ہے۔",
-"english": "Life is very beautiful."
-}
-},
-{
-"rank": 15,
-"noun_urdu": "دل",
-"gender": "M",
-"singular": "دل",
-"plural": "دل",
-"roman_scholarly": "dil",
-"meaning_en": "heart",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "میرا دل خوش ہے۔",
-"english": "My heart is happy."
-}
-},
-{
-"rank": 16,
-"noun_urdu": "دوست",
-"gender": "M",
-"singular": "دوست",
-"plural": "دوست",
-"roman_scholarly": "dost",
-"meaning_en": "friend",
-"note": "Can be used for females, but grammatically M is standard.",
-"example": {
-"urdu": "احمد میرا بہترین دوست ہے۔",
-"english": "Ahmed is my best friend."
-}
-},
-{
-"rank": 17,
-"noun_urdu": "ماں",
-"gender": "F",
-"singular": "ماں",
-"plural": "ماؤں",
-"roman_scholarly": "māṅ",
-"meaning_en": "mother",
-"note": "Irregular pluralization in oblique cases.",
-"example": {
-"urdu": "ماں کی دعا جنت کی ہوا ہے۔",
-"english": "A mother's prayer is the breeze of paradise."
-}
-},
-{
-"rank": 18,
-"noun_urdu": "باپ",
-"gender": "M",
-"singular": "باپ",
-"plural": "باپ",
-"roman_scholarly": "bāp",
-"meaning_en": "father",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "اس کے باپ ایک ڈاکٹر ہیں۔",
-"english": "His father is a doctor."
-}
-},
-{
-"rank": 19,
-"noun_urdu": "کھانا",
-"gender": "M",
-"singular": "کھانا",
-"plural": "کھانے",
-"roman_scholarly": "khānā",
-"meaning_en": "food / meal",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "کھانا بہت لذیذ ہے۔",
-"english": "The food is very delicious."
-}
-},
-{
-"rank": 20,
-"noun_urdu": "کام",
-"gender": "M",
-"singular": "کام",
-"plural": "کام",
-"roman_scholarly": "kām",
-"meaning_en": "work",
-"note": "General term for tasks or work.",
-"example": {
-"urdu": "میں اپنا کام کر رہا ہوں۔",
-"english": "I am doing my work."
-}
-},
-{
-"rank": 21,
-"noun_urdu": "کرسی",
-"gender": "F",
-"singular": "کرسی",
-"plural": "کرسیاں",
-"roman_scholarly": "kursī",
-"meaning_en": "chair",
-"note": "Standard 'ī' ending feminine.",
-"example": {
-"urdu": "کرسی پر بیٹھ جاؤ۔",
-"english": "Sit on the chair."
-}
-},
-{
-"rank": 22,
-"noun_urdu": "میز",
-"gender": "F",
-"singular": "میز",
-"plural": "میزیں",
-"roman_scholarly": "mez",
-"meaning_en": "table",
-"note": "Loanword (Persian/Portuguese), feminine in Urdu.",
-"example": {
-"urdu": "میز پر کھانا لگا دو۔",
-"english": "Set the food on the table."
-}
-},
-{
-"rank": 23,
-"noun_urdu": "دروازہ",
-"gender": "M",
-"singular": "دروازہ",
-"plural": "دروازے",
-"roman_scholarly": "darvāzah",
-"meaning_en": "door",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "دروازہ بند کر دو۔",
-"english": "Close the door."
-}
-},
-{
-"rank": 24,
-"noun_urdu": "کھڑکی",
-"gender": "F",
-"singular": "کھڑکی",
-"plural": "کھڑکیاں",
-"roman_scholarly": "khiṛkī",
-"meaning_en": "window",
-"note": "Standard 'ī' ending feminine.",
-"example": {
-"urdu": "کھڑکی کھول دو۔",
-"english": "Open the window."
-}
-},
-{
-"rank": 25,
-"noun_urdu": "درخت",
-"gender": "M",
-"singular": "درخت",
-"plural": "درخت",
-"roman_scholarly": "darakht",
-"meaning_en": "tree",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "یہ درخت بہت سایہ دار ہے۔",
-"english": "This tree is very shady."
-}
-},
-{
-"rank": 26,
-"noun_urdu": "پھول",
-"gender": "M",
-"singular": "پھول",
-"plural": "پھول",
-"roman_scholarly": "phūl",
-"meaning_en": "flower",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "گلاب کا پھول سرخ ہے۔",
-"english": "The rose flower is red."
-}
-},
-{
-"rank": 27,
-"noun_urdu": "سورج",
-"gender": "M",
-"singular": "سورج",
-"plural": null,
-"roman_scholarly": "sūraj",
-"meaning_en": "sun",
-"note": "Singular celestial body.",
-"example": {
-"urdu": "سورج مشرق سے نکلتا ہے۔",
-"english": "The sun rises in the east."
-}
-},
-{
-"rank": 28,
-"noun_urdu": "چاند",
-"gender": "M",
-"singular": "چاند",
-"plural": null,
-"roman_scholarly": "cāṅd",
-"meaning_en": "moon",
-"note": "Singular celestial body.",
-"example": {
-"urdu": "آج چاند پورا ہے۔",
-"english": "The moon is full today."
-}
-},
-{
-"rank": 29,
-"noun_urdu": "ستارہ",
-"gender": "M",
-"singular": "ستارہ",
-"plural": "ستارے",
-"roman_scholarly": "sitārah",
-"meaning_en": "star",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "آسمان پر ستارے چمک رہے ہیں۔",
-"english": "Stars are shining in the sky."
-}
-},
-{
-"rank": 30,
-"noun_urdu": "آسمان",
-"gender": "M",
-"singular": "آسمان",
-"plural": null,
-"roman_scholarly": "āsmān",
-"meaning_en": "sky",
-"note": "Masculine.",
-"example": {
-"urdu": "آسمان نیلا ہے۔",
-"english": "The sky is blue."
-}
-},
-{
-"rank": 31,
-"noun_urdu": "زمین",
-"gender": "F",
-"singular": "زمین",
-"plural": "زمینیں",
-"roman_scholarly": "zamīn",
-"meaning_en": "earth / land / floor",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "زمین گول ہے۔",
-"english": "The earth is round."
-}
-},
-{
-"rank": 32,
-"noun_urdu": "ہوا",
-"gender": "F",
-"singular": "ہوا",
-"plural": "ہوائیں",
-"roman_scholarly": "havā",
-"meaning_en": "air / wind",
-"note": "Feminine ending in 'ā'.",
-"example": {
-"urdu": "ٹھنڈی ہوا چل رہی ہے۔",
-"english": "Cold wind is blowing."
-}
-},
-{
-"rank": 33,
-"noun_urdu": "سمندر",
-"gender": "M",
-"singular": "سمندر",
-"plural": "سمندر",
-"roman_scholarly": "samuṅdar",
-"meaning_en": "sea / ocean",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "سمندر بہت گہرا ہے۔",
-"english": "The sea is very deep."
-}
-},
-{
-"rank": 34,
-"noun_urdu": "دریا",
-"gender": "M",
-"singular": "دریا",
-"plural": "دریا",
-"roman_scholarly": "daryā",
-"meaning_en": "river",
-"note": "Invariant in nominative plural despite ending in 'ā'.",
-"example": {
-"urdu": "دریا میں پانی کم ہے۔",
-"english": "There is little water in the river."
-}
-},
-{
-"rank": 35,
-"noun_urdu": "پہاڑ",
-"gender": "M",
-"singular": "پہاڑ",
-"plural": "پہاڑ",
-"roman_scholarly": "pahāṛ",
-"meaning_en": "mountain",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "پہاڑ پر برف پڑ رہی ہے۔",
-"english": "Snow is falling on the mountain."
-}
-},
-{
-"rank": 36,
-"noun_urdu": "راستہ",
-"gender": "M",
-"singular": "راستہ",
-"plural": "راستے",
-"roman_scholarly": "rāstah",
-"meaning_en": "way / path",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "یہ راستہ کدھر جاتا ہے؟",
-"english": "Where does this path lead?"
-}
-},
-{
-"rank": 37,
-"noun_urdu": "سفر",
-"gender": "M",
-"singular": "سفر",
-"plural": "اسفار",
-"roman_scholarly": "safar",
-"meaning_en": "journey / travel",
-"note": "Arabic plural 'asfār' is formal; 'safar' used as M invariant in speech.",
-"example": {
-"urdu": "آپ کا سفر کیسا رہا؟",
-"english": "How was your journey?"
-}
-},
-{
-"rank": 38,
-"noun_urdu": "خوشی",
-"gender": "F",
-"singular": "خوشی",
-"plural": "خوشیاں",
-"roman_scholarly": "khushī",
-"meaning_en": "happiness / joy",
-"note": "Abstract 'ī' ending feminine.",
-"example": {
-"urdu": "یہ ہمارے لیے بڑی خوشی کی بات ہے۔",
-"english": "This is a matter of great joy for us."
-}
-},
-{
-"rank": 39,
-"noun_urdu": "غم",
-"gender": "M",
-"singular": "غم",
-"plural": "غم",
-"roman_scholarly": "gham",
-"meaning_en": "sorrow / grief",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "زندگی خوشی اور غم کا نام ہے۔",
-"english": "Life is the name of joy and sorrow."
-}
-},
-{
-"rank": 40,
-"noun_urdu": "سوال",
-"gender": "M",
-"singular": "سوال",
-"plural": "سوالات",
-"roman_scholarly": "savāl",
-"meaning_en": "question",
-"note": "Plural uses Arabic '-āt' suffix.",
-"example": {
-"urdu": "میرا ایک سوال ہے۔",
-"english": "I have a question."
-}
-},
-{
-"rank": 41,
-"noun_urdu": "جواب",
-"gender": "M",
-"singular": "جواب",
-"plural": "جوابات",
-"roman_scholarly": "javāb",
-"meaning_en": "answer",
-"note": "Plural uses Arabic '-āt' suffix.",
-"example": {
-"urdu": "اس سوال کا جواب مشکل ہے۔",
-"english": "The answer to this question is difficult."
-}
-},
-{
-"rank": 42,
-"noun_urdu": "کمرہ",
-"gender": "M",
-"singular": "کمرہ",
-"plural": "کمرے",
-"roman_scholarly": "kamrah",
-"meaning_en": "room",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "یہ کمرہ صاف ہے۔",
-"english": "This room is clean."
-}
-},
-{
-"rank": 43,
-"noun_urdu": "کپڑا",
-"gender": "M",
-"singular": "کپڑا",
-"plural": "کپڑے",
-"roman_scholarly": "kapṛā",
-"meaning_en": "cloth / clothes",
-"note": "Plural 'kapṛe' often means clothes in general.",
-"example": {
-"urdu": "نئے کپڑے پہن لو۔",
-"english": "Put on new clothes."
-}
-},
-{
-"rank": 44,
-"noun_urdu": "جوتا",
-"gender": "M",
-"singular": "جوتا",
-"plural": "جوتے",
-"roman_scholarly": "jūtā",
-"meaning_en": "shoe",
-"note": "Masculine ending in 'ā'.",
-"example": {
-"urdu": "میرا جوتا ٹوٹ گیا ہے۔",
-"english": "My shoe is broken."
-}
-},
-{
-"rank": 45,
-"noun_urdu": "روٹی",
-"gender": "F",
-"singular": "روٹی",
-"plural": "روٹیاں",
-"roman_scholarly": "roṭī",
-"meaning_en": "bread / food",
-"note": "Often used for food in general.",
-"example": {
-"urdu": "روٹی تیار ہے۔",
-"english": "The bread is ready."
-}
-},
-{
-"rank": 46,
-"noun_urdu": "چائے",
-"gender": "F",
-"singular": "چائے",
-"plural": null,
-"roman_scholarly": "cā'e",
-"meaning_en": "tea",
-"note": "Feminine mass noun.",
-"example": {
-"urdu": "کیا آپ چائے پئیں گے؟",
-"english": "Will you drink tea?"
-}
-},
-{
-"rank": 47,
-"noun_urdu": "دودھ",
-"gender": "M",
-"singular": "دودھ",
-"plural": null,
-"roman_scholarly": "dūdh",
-"meaning_en": "milk",
-"note": "Masculine mass noun.",
-"example": {
-"urdu": "بچہ دودھ پی رہا ہے۔",
-"english": "The baby is drinking milk."
-}
-},
-{
-"rank": 48,
-"noun_urdu": "پھل",
-"gender": "M",
-"singular": "پھل",
-"plural": "پھل",
-"roman_scholarly": "phal",
-"meaning_en": "fruit",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "پھل صحت کے لیے اچھے ہیں۔",
-"english": "Fruits are good for health."
-}
-},
-{
-"rank": 49,
-"noun_urdu": "نام",
-"gender": "M",
-"singular": "نام",
-"plural": "نام",
-"roman_scholarly": "nām",
-"meaning_en": "name",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "آپ کا نام کیا ہے؟",
-"english": "What is your name?"
-}
-},
-{
-"rank": 50,
-"noun_urdu": "ملک",
-"gender": "M",
-"singular": "ملک",
-"plural": "ممالک",
-"roman_scholarly": "mulk",
-"meaning_en": "country",
-"note": "Arabic broken plural 'mamālik' is commonly used.",
-"example": {
-"urdu": "پاکستان میرا ملک ہے۔",
-"english": "Pakistan is my country."
-}
-},
-{
-"rank": 51,
-"noun_urdu": "صوبہ",
-"gender": "M",
-"singular": "صوبہ",
-"plural": "صوبے",
-"roman_scholarly": "ṣūbah",
-"meaning_en": "province",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "پنجاب ایک بڑا صوبہ ہے۔",
-"english": "Punjab is a large province."
-}
-},
-{
-"rank": 52,
-"noun_urdu": "زبان",
-"gender": "F",
-"singular": "زبان",
-"plural": "زبانیں",
-"roman_scholarly": "zabān",
-"meaning_en": "language / tongue",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "اردو میری مادری زبان ہے۔",
-"english": "Urdu is my mother tongue."
-}
-},
-{
-"rank": 53,
-"noun_urdu": "سر",
-"gender": "M",
-"singular": "سر",
-"plural": "سر",
-"roman_scholarly": "sar",
-"meaning_en": "head",
-"note": "Anatomy, masculine invariant.",
-"example": {
-"urdu": "میرے سر میں درد ہے۔",
-"english": "I have a headache (pain in my head)."
-}
-},
-{
-"rank": 54,
-"noun_urdu": "پاؤں",
-"gender": "M",
-"singular": "پاؤں",
-"plural": "پاؤں",
-"roman_scholarly": "pā'oṅ",
-"meaning_en": "foot / leg",
-"note": "Anatomy, masculine invariant.",
-"example": {
-"urdu": "پاؤں میں جوتا نہیں ہے۔",
-"english": "There is no shoe on the foot."
-}
-},
-{
-"rank": 55,
-"noun_urdu": "جسم",
-"gender": "M",
-"singular": "جسم",
-"plural": "اجسام",
-"roman_scholarly": "jism",
-"meaning_en": "body",
-"note": "Arabic plural 'ajsām' used in scientific contexts.",
-"example": {
-"urdu": "ورزش جسم کے لیے ضروری ہے۔",
-"english": "Exercise is necessary for the body."
-}
-},
-{
-"rank": 56,
-"noun_urdu": "خون",
-"gender": "M",
-"singular": "خون",
-"plural": null,
-"roman_scholarly": "khūn",
-"meaning_en": "blood",
-"note": "Masculine mass noun.",
-"example": {
-"urdu": "خون کا رنگ سرخ ہے۔",
-"english": "The color of blood is red."
-}
-},
-{
-"rank": 57,
-"noun_urdu": "امید",
-"gender": "F",
-"singular": "امید",
-"plural": "امیدیں",
-"roman_scholarly": "ummīd",
-"meaning_en": "hope",
-"note": "Feminine abstract noun.",
-"example": {
-"urdu": "ہمیں اچھی امید رکھنی چاہیے۔",
-"english": "We should keep good hope."
-}
-},
-{
-"rank": 58,
-"noun_urdu": "محبت",
-"gender": "F",
-"singular": "محبت",
-"plural": null,
-"roman_scholarly": "muḥabbat",
-"meaning_en": "love",
-"note": "Feminine abstract noun.",
-"example": {
-"urdu": "محبت اندھی ہوتی ہے۔",
-"english": "Love is blind."
-}
-},
-{
-"rank": 59,
-"noun_urdu": "نفرت",
-"gender": "F",
-"singular": "نفرت",
-"plural": null,
-"roman_scholarly": "nafrat",
-"meaning_en": "hatred",
-"note": "Feminine abstract noun.",
-"example": {
-"urdu": "نفرت کو ختم کرو۔",
-"english": "End the hatred."
-}
-},
-{
-"rank": 60,
-"noun_urdu": "خواب",
-"gender": "M",
-"singular": "خواب",
-"plural": "خواب",
-"roman_scholarly": "khvāb",
-"meaning_en": "dream",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "کل میں نے ایک اچھا خواب دیکھا۔",
-"english": "Yesterday I saw a good dream."
-}
-},
-{
-"rank": 61,
-"noun_urdu": "آواز",
-"gender": "F",
-"singular": "آواز",
-"plural": "آوازیں",
-"roman_scholarly": "āvāz",
-"meaning_en": "voice / sound",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "اس کی آواز بہت پیاری ہے۔",
-"english": "Her voice is very sweet."
-}
-},
-{
-"rank": 62,
-"noun_urdu": "روشنی",
-"gender": "F",
-"singular": "روشنی",
-"plural": null,
-"roman_scholarly": "raushnī",
-"meaning_en": "light",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "کمرے میں روشنی بہت کم ہے۔",
-"english": "There is very little light in the room."
-}
-},
-{
-"rank": 63,
-"noun_urdu": "اندھیرا",
-"gender": "M",
-"singular": "اندھیرا",
-"plural": null,
-"roman_scholarly": "andherā",
-"meaning_en": "darkness",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "باہر بہت اندھیرا ہے۔",
-"english": "It is very dark outside."
-}
-},
-{
-"rank": 64,
-"noun_urdu": "بچہ",
-"gender": "M",
-"singular": "بچہ",
-"plural": "بچے",
-"roman_scholarly": "bacah",
-"meaning_en": "child / baby boy",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "بچہ رو رہا ہے۔",
-"english": "The child is crying."
-}
-},
-{
-"rank": 65,
-"noun_urdu": "بچی",
-"gender": "F",
-"singular": "بچی",
-"plural": "بچیاں",
-"roman_scholarly": "bacī",
-"meaning_en": "child / baby girl",
-"note": "Feminine ending in 'ī'.",
-"example": {
-"urdu": "بچی سو رہی ہے۔",
-"english": "The baby girl is sleeping."
-}
-},
-{
-"rank": 66,
-"noun_urdu": "لوگ",
-"gender": "M",
-"singular": "آدمی / شخص",
-"plural": "لوگ",
-"roman_scholarly": "log",
-"meaning_en": "people",
-"note": "Always plural in usage.",
-"example": {
-"urdu": "لوگ کیا کہیں گے؟",
-"english": "What will people say?"
-}
-},
-{
-"rank": 67,
-"noun_urdu": "دنیا",
-"gender": "F",
-"singular": "دنیا",
-"plural": "دنیاؤں",
-"roman_scholarly": "dunyā",
-"meaning_en": "world",
-"note": "Feminine ending in 'ā'.",
-"example": {
-"urdu": "دنیا ایک مسافر خانہ ہے۔",
-"english": "The world is an inn."
-}
-},
-{
-"rank": 68,
-"noun_urdu": "موسم",
-"gender": "M",
-"singular": "موسم",
-"plural": "موسم",
-"roman_scholarly": "mausam",
-"meaning_en": "weather / season",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "آج موسم بہت سہانا ہے۔",
-"english": "The weather is very pleasant today."
-}
-},
-{
-"rank": 69,
-"noun_urdu": "بارش",
-"gender": "F",
-"singular": "بارش",
-"plural": "بارشیں",
-"roman_scholarly": "bārish",
-"meaning_en": "rain",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "باہر تیز بارش ہو رہی ہے۔",
-"english": "It is raining heavily outside."
-}
-},
-{
-"rank": 70,
-"noun_urdu": "برف",
-"gender": "F",
-"singular": "برف",
-"plural": null,
-"roman_scholarly": "barf",
-"meaning_en": "ice / snow",
-"note": "Feminine mass noun.",
-"example": {
-"urdu": "پانی میں تھوڑی برف ڈال دو۔",
-"english": "Put some ice in the water."
-}
-},
-{
-"rank": 71,
-"noun_urdu": "آگ",
-"gender": "F",
-"singular": "آگ",
-"plural": null,
-"roman_scholarly": "āg",
-"meaning_en": "fire",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "آگ سے دور رہو۔",
-"english": "Stay away from the fire."
-}
-},
-{
-"rank": 72,
-"noun_urdu": "درد",
-"gender": "M",
-"singular": "درد",
-"plural": "درد",
-"roman_scholarly": "dard",
-"meaning_en": "pain",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "اس کے دانت میں درد ہے۔",
-"english": "He has a pain in his tooth."
-}
-},
-{
-"rank": 73,
-"noun_urdu": "دوا",
-"gender": "F",
-"singular": "دوا",
-"plural": "دوائیں / ادویات",
-"roman_scholarly": "davā",
-"meaning_en": "medicine",
-"note": "Plural 'adviyāt' is formal.",
-"example": {
-"urdu": "وقت پر دوا لو۔",
-"english": "Take the medicine on time."
-}
-},
-{
-"rank": 74,
-"noun_urdu": "طبیعت",
-"gender": "F",
-"singular": "طبیعت",
-"plural": null,
-"roman_scholarly": "t̤abīʿat",
-"meaning_en": "health / temperament",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "آج میری طبیعت ٹھیک نہیں ہے۔",
-"english": "My health is not good today."
-}
-},
-{
-"rank": 75,
-"noun_urdu": "اسکول",
-"gender": "M",
-"singular": "اسکول",
-"plural": "اسکول",
-"roman_scholarly": "iskūl",
-"meaning_en": "school",
-"note": "Masculine loanword.",
-"example": {
-"urdu": "بچے اسکول جا رہے ہیں۔",
-"english": "The children are going to school."
-}
-},
-{
-"rank": 76,
-"noun_urdu": "استاد",
-"gender": "M",
-"singular": "استاد",
-"plural": "اساتذہ",
-"roman_scholarly": "ustād",
-"meaning_en": "teacher",
-"note": "Arabic plural 'asātizah' is used.",
-"example": {
-"urdu": "استاد کا احترام ضروری ہے۔",
-"english": "Respect for the teacher is necessary."
-}
-},
-{
-"rank": 77,
-"noun_urdu": "سبق",
-"gender": "M",
-"singular": "سبق",
-"plural": "اسباق",
-"roman_scholarly": "sabaq",
-"meaning_en": "lesson",
-"note": "Arabic plural 'asbāq' used in formal contexts.",
-"example": {
-"urdu": "آج کا سبق بہت آسان ہے۔",
-"english": "Today's lesson is very easy."
-}
-},
-{
-"rank": 78,
-"noun_urdu": "قلم",
-"gender": "M",
-"singular": "قلم",
-"plural": "اقلام",
-"roman_scholarly": "qalam",
-"meaning_en": "pen",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "میرا قلم کدھر ہے؟",
-"english": "Where is my pen?"
-}
-},
-{
-"rank": 79,
-"noun_urdu": "کاغذ",
-"gender": "M",
-"singular": "کاغذ",
-"plural": "کاغذات",
-"roman_scholarly": "kāghaz",
-"meaning_en": "paper / document",
-"note": "Plural 'kāghazāt' refers to documents.",
-"example": {
-"urdu": "اس کاغذ پر اپنا نام لکھو۔",
-"english": "Write your name on this paper."
-}
-},
-{
-"rank": 80,
-"noun_urdu": "رنگ",
-"gender": "M",
-"singular": "رنگ",
-"plural": "رنگ",
-"roman_scholarly": "raṅg",
-"meaning_en": "color",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "آپ کا پسندیدہ رنگ کون سا ہے؟",
-"english": "Which is your favorite color?"
-}
-},
-{
-"rank": 81,
-"noun_urdu": "بات چیت",
-"gender": "F",
-"singular": "بات چیت",
-"plural": null,
-"roman_scholarly": "bāt cīt",
-"meaning_en": "conversation",
-"note": "Compound feminine noun.",
-"example": {
-"urdu": "ان کے درمیان بات چیت ہو رہی ہے۔",
-"english": "A conversation is happening between them."
-}
-},
-{
-"rank": 82,
-"noun_urdu": "کہانی",
-"gender": "F",
-"singular": "کہانی",
-"plural": "کہانیاں",
-"roman_scholarly": "kahānī",
-"meaning_en": "story",
-"note": "Standard 'ī' ending feminine.",
-"example": {
-"urdu": "دادی نے ایک کہانی سنائی۔",
-"english": "Grandmother told a story."
-}
-},
-{
-"rank": 83,
-"noun_urdu": "سچ",
-"gender": "M",
-"singular": "سچ",
-"plural": null,
-"roman_scholarly": "sac",
-"meaning_en": "truth",
-"note": "Masculine abstract.",
-"example": {
-"urdu": "ہمیشہ سچ بولو۔",
-"english": "Always speak the truth."
-}
-},
-{
-"rank": 84,
-"noun_urdu": "جھوٹ",
-"gender": "M",
-"singular": "جھوٹ",
-"plural": "جھوٹ",
-"roman_scholarly": "jhūṭ",
-"meaning_en": "lie",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "جھوٹ بولنا گناہ ہے۔",
-"english": "Telling a lie is a sin."
-}
-},
-{
-"rank": 85,
-"noun_urdu": "گناہ",
-"gender": "M",
-"singular": "گناہ",
-"plural": "گناہ",
-"roman_scholarly": "gunāh",
-"meaning_en": "sin",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "چوری کرنا گناہ ہے۔",
-"english": "Stealing is a sin."
-}
-},
-{
-"rank": 86,
-"noun_urdu": "نیکی",
-"gender": "F",
-"singular": "نیکی",
-"plural": "نیکیاں",
-"roman_scholarly": "nekī",
-"meaning_en": "virtue / good deed",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "نیکی کبھی ضائع نہیں ہوتی۔",
-"english": "Virtue never goes to waste."
-}
-},
-{
-"rank": 87,
-"noun_urdu": "خدا",
-"gender": "M",
-"singular": "خدا",
-"plural": null,
-"roman_scholarly": "khudā",
-"meaning_en": "God",
-"note": "Masculine.",
-"example": {
-"urdu": "خدا پر بھروسہ رکھو۔",
-"english": "Have trust in God."
-}
-},
-{
-"rank": 88,
-"noun_urdu": "دعا",
-"gender": "F",
-"singular": "دعا",
-"plural": "دعائیں",
-"roman_scholarly": "duʿā",
-"meaning_en": "prayer / blessing",
-"note": "Feminine ending in 'ā'.",
-"example": {
-"urdu": "مجھے اپنی دعاؤں میں یاد رکھنا۔",
-"english": "Remember me in your prayers."
-}
-},
-{
-"rank": 89,
-"noun_urdu": "نماز",
-"gender": "F",
-"singular": "نماز",
-"plural": "نمازیں",
-"roman_scholarly": "namāz",
-"meaning_en": "Islamic prayer",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "نماز پڑھنا فرض ہے۔",
-"english": "Performing prayer is obligatory."
-}
-},
-{
-"rank": 90,
-"noun_urdu": "مسجد",
-"gender": "F",
-"singular": "مسجد",
-"plural": "مساجد",
-"roman_scholarly": "masjid",
-"meaning_en": "mosque",
-"note": "Arabic plural 'masājid' is common.",
-"example": {
-"urdu": "لوگ مسجد جا رہے ہیں۔",
-"english": "People are going to the mosque."
-}
-},
-{
-"rank": 91,
-"noun_urdu": "گوشت",
-"gender": "M",
-"singular": "گوشت",
-"plural": null,
-"roman_scholarly": "gosht",
-"meaning_en": "meat",
-"note": "Masculine mass noun.",
-"example": {
-"urdu": "کیا آپ گوشت کھاتے ہیں؟",
-"english": "Do you eat meat?"
-}
-},
-{
-"rank": 92,
-"noun_urdu": "سبزی",
-"gender": "F",
-"singular": "سبزی",
-"plural": "سبزیاں",
-"roman_scholarly": "sabzī",
-"meaning_en": "vegetable",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "سبزی تازہ ہونی چاہیے۔",
-"english": "Vegetables should be fresh."
-}
-},
-{
-"rank": 93,
-"noun_urdu": "پیاز",
-"gender": "M",
-"singular": "پیاز",
-"plural": "پیاز",
-"roman_scholarly": "pyāz",
-"meaning_en": "onion",
-"note": "Masculine in Urdu (unlike Hindi).",
-"example": {
-"urdu": "پیاز کاٹنا مشکل کام ہے۔",
-"english": "Cutting onions is a difficult task."
-}
-},
-{
-"rank": 94,
-"noun_urdu": "تیل",
-"gender": "M",
-"singular": "تیل",
-"plural": null,
-"roman_scholarly": "tel",
-"meaning_en": "oil",
-"note": "Masculine mass noun.",
-"example": {
-"urdu": "کھانے میں تیل کم ڈالیں۔",
-"english": "Put less oil in the food."
-}
-},
-{
-"rank": 95,
-"noun_urdu": "نمک",
-"gender": "M",
-"singular": "نمک",
-"plural": null,
-"roman_scholarly": "namak",
-"meaning_en": "salt",
-"note": "Masculine mass noun.",
-"example": {
-"urdu": "نمک حسبِ ذائقہ ڈالیں۔",
-"english": "Add salt according to taste."
-}
-},
-{
-"rank": 96,
-"noun_urdu": "چینی",
-"gender": "F",
-"singular": "چینی",
-"plural": null,
-"roman_scholarly": "cīnī",
-"meaning_en": "sugar",
-"note": "Feminine mass noun.",
-"example": {
-"urdu": "چائے میں چینی کم ہے۔",
-"english": "There is less sugar in the tea."
-}
-},
-{
-"rank": 97,
-"noun_urdu": "کوشش",
-"gender": "F",
-"singular": "کوشش",
-"plural": "کوششیں",
-"roman_scholarly": "koshish",
-"meaning_en": "effort / try",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "دوبارہ کوشش کرو۔",
-"english": "Try again."
-}
-},
-{
-"rank": 98,
-"noun_urdu": "مدد",
-"gender": "F",
-"singular": "مدد",
-"plural": null,
-"roman_scholarly": "madad",
-"meaning_en": "help / assistance",
-"note": "Feminine abstract noun.",
-"example": {
-"urdu": "کیا میں آپ کی مدد کر سکتا ہوں؟",
-"english": "Can I help you?"
-}
-},
-{
-"rank": 99,
-"noun_urdu": "پیسہ",
-"gender": "M",
-"singular": "پیسہ",
-"plural": "پیسے",
-"roman_scholarly": "paisah",
-"meaning_en": "money / penny",
-"note": "Plural 'paise' generally means money.",
-"example": {
-"urdu": "میرے پاس پیسے نہیں ہیں۔",
-"english": "I don't have money."
-}
-},
-{
-"rank": 100,
-"noun_urdu": "قیمت",
-"gender": "F",
-"singular": "قیمت",
-"plural": "قیمتیں",
-"roman_scholarly": "qīmat",
-"meaning_en": "price / cost",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "اس گھر کی قیمت کیا ہے؟",
-"english": "What is the price of this house?"
-}
-},
-{
-"rank": 101,
-"noun_urdu": "بازار",
-"gender": "M",
-"singular": "بازار",
-"plural": "بازار",
-"roman_scholarly": "bāzār",
-"meaning_en": "market",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "امی بازار گئی ہیں۔",
-"english": "Mother has gone to the market."
-}
-},
-{
-"rank": 102,
-"noun_urdu": "دکان",
-"gender": "F",
-"singular": "دکان",
-"plural": "دکانیں",
-"roman_scholarly": "dukān",
-"meaning_en": "shop",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "یہ دکان نو بجے کھلتی ہے۔",
-"english": "This shop opens at nine o'clock."
-}
-},
-{
-"rank": 103,
-"noun_urdu": "کپ",
-"gender": "M",
-"singular": "کپ",
-"plural": "کپ",
-"roman_scholarly": "kap",
-"meaning_en": "cup",
-"note": "English loanword, masculine.",
-"example": {
-"urdu": "میز پر ایک کپ رکھا ہے۔",
-"english": "A cup is kept on the table."
-}
-},
-{
-"rank": 104,
-"noun_urdu": "چمچ",
-"gender": "M",
-"singular": "چمچ",
-"plural": "چمچ",
-"roman_scholarly": "camac",
-"meaning_en": "spoon",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "چمچ دراز میں ہے۔",
-"english": "The spoon is in the drawer."
-}
-},
-{
-"rank": 105,
-"noun_urdu": "گلاس",
-"gender": "M",
-"singular": "گلاس",
-"plural": "گلاس",
-"roman_scholarly": "gilās",
-"meaning_en": "glass",
-"note": "Loanword used for drinking vessels.",
-"example": {
-"urdu": "گلاس میں کتنا پانی ہے؟",
-"english": "How much water is in the glass?"
-}
-},
-{
-"rank": 106,
-"noun_urdu": "بستر",
-"gender": "M",
-"singular": "بستر",
-"plural": "بستر",
-"roman_scholarly": "bistar",
-"meaning_en": "bed / bedding",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "بستر بہت نرم ہے۔",
-"english": "The bed is very soft."
-}
-},
-{
-"rank": 107,
-"noun_urdu": "تکیہ",
-"gender": "M",
-"singular": "تکیہ",
-"plural": "تکیے",
-"roman_scholarly": "takiyah",
-"meaning_en": "pillow",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "تکیہ سر کے نیچے رکھ لو۔",
-"english": "Put the pillow under your head."
-}
-},
-{
-"rank": 108,
-"noun_urdu": "چادر",
-"gender": "F",
-"singular": "چادر",
-"plural": "چادریں",
-"roman_scholarly": "cādar",
-"meaning_en": "sheet / shawl",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "صاف چادر بچھا دو۔",
-"english": "Spread a clean sheet."
-}
-},
-{
-"rank": 109,
-"noun_urdu": "گاڑی",
-"gender": "F",
-"singular": "گاڑی",
-"plural": "گاڑیاں",
-"roman_scholarly": "gāṛī",
-"meaning_en": "car / vehicle",
-"note": "Standard 'ī' ending feminine.",
-"example": {
-"urdu": "گاڑی باہر کھڑی ہے۔",
-"english": "The car is parked outside."
-}
-},
-{
-"rank": 110,
-"noun_urdu": "سائیکل",
-"gender": "F",
-"singular": "سائیکل",
-"plural": "سائیکلیں",
-"roman_scholarly": "sā'īkil",
-"meaning_en": "bicycle",
-"note": "Feminine loanword.",
-"example": {
-"urdu": "اس کے پاس ایک پرانی سائیکل ہے۔",
-"english": "He has an old bicycle."
-}
-},
-{
-"rank": 111,
-"noun_urdu": "جہاز",
-"gender": "M",
-"singular": "جہاز",
-"plural": "جہاز",
-"roman_scholarly": "jahāz",
-"meaning_en": "ship / airplane",
-"note": "Context determines sea or air vessel.",
-"example": {
-"urdu": "ہوائی جہاز اڑ رہا ہے۔",
-"english": "The airplane is flying."
-}
-},
-{
-"rank": 112,
-"noun_urdu": "وقت",
-"gender": "M",
-"singular": "وقت",
-"plural": "اوقات",
-"roman_scholarly": "vaqt",
-"meaning_en": "time",
-"note": "Repeating for frequency, 'auqāt' often means 'status' now.",
-"example": {
-"urdu": "اچھے اوقات ضرور آئیں گے۔",
-"english": "Good times will surely come."
-}
-},
-{
-"rank": 113,
-"noun_urdu": "سال",
-"gender": "M",
-"singular": "سال",
-"plural": "سالوں",
-"roman_scholarly": "sāl",
-"meaning_en": "year",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "نیا سال مبارک ہو! ",
-"english": "Happy New Year!"
-}
-},
-{
-"rank": 114,
-"noun_urdu": "مہینہ",
-"gender": "M",
-"singular": "مہینہ",
-"plural": "مہینے",
-"roman_scholarly": "mahīnah",
-"meaning_en": "month",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "فروری سال کا سب سے چھوٹا مہینہ ہے۔",
-"english": "February is the shortest month of the year."
-}
-},
-{
-"rank": 115,
-"noun_urdu": "ہفتہ",
-"gender": "M",
-"singular": "ہفتہ",
-"plural": "ہفتے",
-"roman_scholarly": "haftah",
-"meaning_en": "week / Saturday",
-"note": "Also means Saturday.",
-"example": {
-"urdu": "اگلے ہفتے چھٹی ہے۔",
-"english": "There is a holiday next week."
-}
-},
-{
-"rank": 116,
-"noun_urdu": "گھڑی",
-"gender": "F",
-"singular": "گھڑی",
-"plural": "گھڑیاں",
-"roman_scholarly": "ghaṛī",
-"meaning_en": "watch / clock / moment",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "آپ کی گھڑی میں کیا وقت ہوا ہے؟",
-"english": "What time is it by your watch?"
-}
-},
-{
-"rank": 117,
-"noun_urdu": "جانور",
-"gender": "M",
-"singular": "جانور",
-"plural": "جانور",
-"roman_scholarly": "jānavar",
-"meaning_en": "animal",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "شیر ایک جنگلی جانور ہے۔",
-"english": "The lion is a wild animal."
-}
-},
-{
-"rank": 118,
-"noun_urdu": "پرندہ",
-"gender": "M",
-"singular": "پرندہ",
-"plural": "پرندے",
-"roman_scholarly": "parindah",
-"meaning_en": "bird",
-"note": "Masculine ending in 'ah'.",
-"example": {
-"urdu": "پرندہ ہوا میں اڑ رہا ہے۔",
-"english": "The bird is flying in the air."
-}
-},
-{
-"rank": 119,
-"noun_urdu": "کتا",
-"gender": "M",
-"singular": "کتا",
-"plural": "کتے",
-"roman_scholarly": "kuttā",
-"meaning_en": "dog",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "کتا بھونک رہا ہے۔",
-"english": "The dog is barking."
-}
-},
-{
-"rank": 120,
-"noun_urdu": "بلی",
-"gender": "F",
-"singular": "بلی",
-"plural": "بلیاں",
-"roman_scholarly": "billī",
-"meaning_en": "cat",
-"note": "Standard 'ī' ending feminine.",
-"example": {
-"urdu": "بلی میز کے نیچے ہے۔",
-"english": "The cat is under the table."
-}
-},
-{
-"rank": 121,
-"noun_urdu": "گائے",
-"gender": "F",
-"singular": "گائے",
-"plural": "گائیں",
-"roman_scholarly": "gā'e",
-"meaning_en": "cow",
-"note": "Feminine.",
-"example": {
-"urdu": "گائے گھاس کھا رہی ہے۔",
-"english": "The cow is eating grass."
-}
-},
-{
-"rank": 122,
-"noun_urdu": "گھوڑا",
-"gender": "M",
-"singular": "گھوڑا",
-"plural": "گھوڑے",
-"roman_scholarly": "ghoṛā",
-"meaning_en": "horse",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "گھوڑا تیز دوڑتا ہے۔",
-"english": "The horse runs fast."
-}
-},
-{
-"rank": 123,
-"noun_urdu": "مچھلی",
-"gender": "F",
-"singular": "مچھلی",
-"plural": "مچھلیاں",
-"roman_scholarly": "machlī",
-"meaning_en": "fish",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "مچھلی پانی میں تیرتی ہے۔",
-"english": "The fish swims in the water."
-}
-},
-{
-"rank": 124,
-"noun_urdu": "جنگل",
-"gender": "M",
-"singular": "جنگل",
-"plural": "جنگلات",
-"roman_scholarly": "jaṅgal",
-"meaning_en": "forest / jungle",
-"note": "Plural 'jaṅgalāt' is common.",
-"example": {
-"urdu": "جنگل میں بہت سے درخت ہیں۔",
-"english": "There are many trees in the forest."
-}
-},
-{
-"rank": 125,
-"noun_urdu": "باغ",
-"gender": "M",
-"singular": "باغ",
-"plural": "باغات",
-"roman_scholarly": "bāgh",
-"meaning_en": "garden / orchard",
-"note": "Arabic style plural 'bāghāt' used.",
-"example": {
-"urdu": "باغ میں پھول کھلے ہیں۔",
-"english": "Flowers have bloomed in the garden."
-}
-},
-{
-"rank": 126,
-"noun_urdu": "راست",
-"gender": "M",
-"singular": "راستہ",
-"plural": "راستے",
-"roman_scholarly": "rāstah",
-"meaning_en": "road",
-"note": "Alternative transliteration of Rank 36.",
-"example": {
-"urdu": "یہ راستہ سیدھا جاتا ہے۔",
-"english": "This road goes straight."
-}
-},
-{
-"rank": 127,
-"noun_urdu": "سڑک",
-"gender": "F",
-"singular": "سڑک",
-"plural": "سڑکیں",
-"roman_scholarly": "saṛak",
-"meaning_en": "road / street",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "سڑک پر ٹریفک زیادہ ہے۔",
-"english": "There is a lot of traffic on the road."
-}
-},
-{
-"rank": 128,
-"noun_urdu": "ریاست",
-"gender": "F",
-"singular": "ریاست",
-"plural": "ریاستیں",
-"roman_scholarly": "riyāsat",
-"meaning_en": "state",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "وہ ایک فلاحی ریاست ہے۔",
-"english": "That is a welfare state."
-}
-},
-{
-"rank": 129,
-"noun_urdu": "حکومت",
-"gender": "F",
-"singular": "حکومت",
-"plural": "حکومتیں",
-"roman_scholarly": "ḥukūmat",
-"meaning_en": "government",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "حکومت نے نئے قوانین بنائے۔",
-"english": "The government made new laws."
-}
-},
-{
-"rank": 130,
-"noun_urdu": "قانون",
-"gender": "M",
-"singular": "قانون",
-"plural": "قوانین",
-"roman_scholarly": "qānūn",
-"meaning_en": "law",
-"note": "Arabic plural 'qavānīn' is standard.",
-"example": {
-"urdu": "قانون کا احترام سب پر لازم ہے۔",
-"english": "Respect for the law is mandatory for everyone."
-}
-},
-{
-"rank": 131,
-"noun_urdu": "فوج",
-"gender": "F",
-"singular": "فوج",
-"plural": "افواج",
-"roman_scholarly": "fauj",
-"meaning_en": "army",
-"note": "Arabic plural 'afvāj' is very common.",
-"example": {
-"urdu": "فوج سرحد کی حفاظت کر رہی ہے۔",
-"english": "The army is protecting the border."
-}
-},
-{
-"rank": 132,
-"noun_urdu": "پولیس",
-"gender": "F",
-"singular": "پولیس",
-"plural": null,
-"roman_scholarly": "polīs",
-"meaning_en": "police",
-"note": "Feminine collective noun.",
-"example": {
-"urdu": "پولیس چور کے پیچھے بھاگی۔",
-"english": "The police ran after the thief."
-}
-},
-{
-"rank": 133,
-"noun_urdu": "چور",
-"gender": "M",
-"singular": "چور",
-"plural": "چور",
-"roman_scholarly": "cor",
-"meaning_en": "thief",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "پولیس نے چور کو پکڑ لیا۔",
-"english": "The police caught the thief."
-}
-},
-{
-"rank": 134,
-"noun_urdu": "خیال",
-"gender": "M",
-"singular": "خیال",
-"plural": "خیالات",
-"roman_scholarly": "khayāl",
-"meaning_en": "thought / care / idea",
-"note": "Plural 'khayālāt' is common.",
-"example": {
-"urdu": "میرا خیال ہے کہ آپ ٹھیک کہہ رہے ہیں۔",
-"english": "I think (my thought is) that you are saying the right thing."
-}
-},
-{
-"rank": 135,
-"noun_urdu": "سوچ",
-"gender": "F",
-"singular": "سوچ",
-"plural": null,
-"roman_scholarly": "soc",
-"meaning_en": "thinking / worry",
-"note": "Feminine abstract.",
-"example": {
-"urdu": "مثبت سوچ رکھیں۔",
-"english": "Have positive thinking."
-}
-},
-{
-"rank": 136,
-"noun_urdu": "محبت",
-"gender": "F",
-"singular": "محبت",
-"plural": null,
-"roman_scholarly": "muḥabbat",
-"meaning_en": "love",
-"note": "Feminine abstract.",
-"example": {
-"urdu": "والدین کی محبت بے لوث ہوتی ہے۔",
-"english": "The love of parents is selfless."
-}
-},
-{
-"rank": 137,
-"noun_urdu": "نفرت",
-"gender": "F",
-"singular": "نفرت",
-"plural": null,
-"roman_scholarly": "nafrat",
-"meaning_en": "hatred",
-"note": "Feminine abstract.",
-"example": {
-"urdu": "نفرت دل میں نہیں رکھنی چاہیے۔",
-"english": "Hatred should not be kept in the heart."
-}
-},
-{
-"rank": 138,
-"noun_urdu": "غصہ",
-"gender": "M",
-"singular": "غصہ",
-"plural": null,
-"roman_scholarly": "ghuṣah",
-"meaning_en": "anger",
-"note": "Masculine 'ah' ending.",
-"example": {
-"urdu": "غصہ صحت کے لیے برا ہے۔",
-"english": "Anger is bad for health."
-}
-},
-{
-"rank": 139,
-"noun_urdu": "خوف",
-"gender": "M",
-"singular": "خوف",
-"plural": null,
-"roman_scholarly": "khauf",
-"meaning_en": "fear",
-"note": "Masculine abstract.",
-"example": {
-"urdu": "اسے اندھیرے سے خوف آتا ہے۔",
-"english": "He feels fear of the dark."
-}
-},
-{
-"rank": 140,
-"noun_urdu": "بھروسہ",
-"gender": "M",
-"singular": "بھروسہ",
-"plural": null,
-"roman_scholarly": "bharosah",
-"meaning_en": "trust / reliance",
-"note": "Masculine 'ah' ending.",
-"example": {
-"urdu": "مجھ پر بھروسہ رکھو۔",
-"english": "Trust me."
-}
-},
-{
-"rank": 141,
-"noun_urdu": "یاد",
-"gender": "F",
-"singular": "یاد",
-"plural": "یادیں",
-"roman_scholarly": "yād",
-"meaning_en": "memory / remembrance",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "بچپن کی یادیں بہت پیاری ہیں۔",
-"english": "Childhood memories are very sweet."
-}
-},
-{
-"rank": 142,
-"noun_urdu": "بھول",
-"gender": "F",
-"singular": "بھول",
-"plural": null,
-"roman_scholarly": "bhūl",
-"meaning_en": "forgetfulness / mistake",
-"note": "Feminine abstract.",
-"example": {
-"urdu": "یہ میری بھول تھی۔",
-"english": "This was my mistake / oversight."
-}
-},
-{
-"rank": 143,
-"noun_urdu": "غلطی",
-"gender": "F",
-"singular": "غلطی",
-"plural": "غلطیاں",
-"roman_scholarly": "ghalt̤ī",
-"meaning_en": "mistake",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "اپنی غلطی تسلیم کر لو۔",
-"english": "Admit your mistake."
-}
-},
-{
-"rank": 144,
-"noun_urdu": "شک",
-"gender": "M",
-"singular": "شک",
-"plural": "شکوک",
-"roman_scholarly": "shak",
-"meaning_en": "doubt / suspicion",
-"note": "Arabic plural 'shukūk' is common.",
-"example": {
-"urdu": "مجھے اس بات پر شک ہے۔",
-"english": "I have a doubt about this."
-}
-},
-{
-"rank": 145,
-"noun_urdu": "یقین",
-"gender": "M",
-"singular": "یقین",
-"plural": null,
-"roman_scholarly": "yaqīn",
-"meaning_en": "certainty / belief",
-"note": "Masculine abstract.",
-"example": {
-"urdu": "مجھے یقین ہے کہ وہ آئے گا۔",
-"english": "I am certain that he will come."
-}
-},
-{
-"rank": 146,
-"noun_urdu": "موقع",
-"gender": "M",
-"singular": "موقع",
-"plural": "مواقع",
-"roman_scholarly": "mauqaʿ",
-"meaning_en": "opportunity / occasion",
-"note": "Arabic plural 'mavāqiʿ' is common.",
-"example": {
-"urdu": "یہ ایک اچھا موقع ہے۔",
-"english": "This is a good opportunity."
-}
-},
-{
-"rank": 147,
-"noun_urdu": "کامیابی",
-"gender": "F",
-"singular": "کامیابی",
-"plural": "کامیابیاں",
-"roman_scholarly": "kāmyābī",
-"meaning_en": "success",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "سخت محنت کامیابی کی کنجی ہے۔",
-"english": "Hard work is the key to success."
-}
-},
-{
-"rank": 148,
-"noun_urdu": "ناکامی",
-"gender": "F",
-"singular": "ناکامی",
-"plural": "ناکامیاں",
-"roman_scholarly": "nākāmī",
-"meaning_en": "failure",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "ناکامی سے گھبرانا نہیں چاہیے۔",
-"english": "One should not be afraid of failure."
-}
-},
-{
-"rank": 149,
-"noun_urdu": "فائدہ",
-"gender": "M",
-"singular": "فائدہ",
-"plural": "فوائد",
-"roman_scholarly": "fā'idah",
-"meaning_en": "benefit / profit",
-"note": "Arabic plural 'favā'id' used frequently.",
-"example": {
-"urdu": "اس کا کیا فائدہ ہے؟",
-"english": "What is the benefit of this?"
-}
-},
-{
-"rank": 150,
-"noun_urdu": "نقصان",
-"gender": "M",
-"singular": "نقصان",
-"plural": "نقصانات",
-"roman_scholarly": "nuqṣān",
-"meaning_en": "loss / harm",
-"note": "Plural uses Arabic suffix '-āt'.",
-"example": {
-"urdu": "سیلاب سے بہت نقصان ہوا۔",
-"english": "The flood caused a lot of damage."
-}
-},
-{
-"rank": 151,
-"noun_urdu": "امتحان",
-"gender": "M",
-"singular": "امتحان",
-"plural": "امتحانات",
-"roman_scholarly": "imtiḥān",
-"meaning_en": "examination / test",
-"note": "Plural 'imtiḥānāt' is standard.",
-"example": {
-"urdu": "اگلے مہینے میرے امتحانات ہیں۔",
-"english": "I have my exams next month."
-}
-},
-{
-"rank": 152,
-"noun_urdu": "نتیجہ",
-"gender": "M",
-"singular": "نتیجہ",
-"plural": "نتائج",
-"roman_scholarly": "natījah",
-"meaning_en": "result",
-"note": "Arabic plural 'natā'ij' used.",
-"example": {
-"urdu": "آپ کا نتیجہ کیا رہا؟",
-"english": "What was your result?"
-}
-},
-{
-"rank": 153,
-"noun_urdu": "مکان",
-"gender": "M",
-"singular": "مکان",
-"plural": "مکانات",
-"roman_scholarly": "makān",
-"meaning_en": "house / building",
-"note": "Often refers to the structure specifically.",
-"example": {
-"urdu": "یہ مکان کرائے کے لیے ہے۔",
-"english": "This house is for rent."
-}
-},
-{
-"rank": 154,
-"noun_urdu": "دیوار",
-"gender": "F",
-"singular": "دیوار",
-"plural": "دیواریں",
-"roman_scholarly": "dīvār",
-"meaning_en": "wall",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "دیوار پر تصویر لگی ہے۔",
-"english": "A picture is hanging on the wall."
-}
-},
-{
-"rank": 155,
-"noun_urdu": "چھت",
-"gender": "F",
-"singular": "چھت",
-"plural": "چھتیں",
-"roman_scholarly": "chat",
-"meaning_en": "roof / ceiling",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "وہ گھر کی چھت پر بیٹھا ہے۔",
-"english": "He is sitting on the roof of the house."
-}
-},
-{
-"rank": 156,
-"noun_urdu": "فرش",
-"gender": "M",
-"singular": "فرش",
-"plural": "فرش",
-"roman_scholarly": "farsh",
-"meaning_en": "floor",
-"note": "Masculine consonant-ending.",
-"example": {
-"urdu": "فرش پر مت لیٹو۔",
-"english": "Do not lie on the floor."
-}
-},
-{
-"rank": 157,
-"noun_urdu": "باورچی خانہ",
-"gender": "M",
-"singular": "باورچی خانہ",
-"plural": "باورچی خانے",
-"roman_scholarly": "bāvarcī khānah",
-"meaning_en": "kitchen",
-"note": "Compound masculine noun.",
-"example": {
-"urdu": "امی باورچی خانے میں کھانا پکا رہی ہیں۔",
-"english": "Mother is cooking in the kitchen."
-}
-},
-{
-"rank": 158,
-"noun_urdu": "باغیچہ",
-"gender": "M",
-"singular": "باغیچہ",
-"plural": "باغیچے",
-"roman_scholarly": "bāghīcah",
-"meaning_en": "small garden",
-"note": "Diminutive of 'bāgh'.",
-"example": {
-"urdu": "گھر کے سامنے ایک چھوٹا باغیچہ ہے۔",
-"english": "There is a small garden in front of the house."
-}
-},
-{
-"rank": 159,
-"noun_urdu": "پودا",
-"gender": "M",
-"singular": "پودا",
-"plural": "پودے",
-"roman_scholarly": "paudā",
-"meaning_en": "plant",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "پودوں کو پانی دو۔",
-"english": "Water the plants."
-}
-},
-{
-"rank": 160,
-"noun_urdu": "پتا",
-"gender": "M",
-"singular": "پتا",
-"plural": "پتے",
-"roman_scholarly": "pattā",
-"meaning_en": "leaf",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "درخت سے پتا گرا۔",
-"english": "A leaf fell from the tree."
-}
-},
-{
-"rank": 161,
-"noun_urdu": "شاخ",
-"gender": "F",
-"singular": "شاخ",
-"plural": "شاخیں",
-"roman_scholarly": "shākh",
-"meaning_en": "branch",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "پرندہ درخت کی شاخ پر بیٹھا ہے۔",
-"english": "The bird is sitting on the branch of the tree."
-}
-},
-{
-"rank": 162,
-"noun_urdu": "پھل",
-"gender": "M",
-"singular": "پھل",
-"plural": "پھل",
-"roman_scholarly": "phal",
-"meaning_en": "fruit",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "تازہ پھل کھایا کرو۔",
-"english": "Eat fresh fruit."
-}
-},
-{
-"rank": 163,
-"noun_urdu": "آم",
-"gender": "M",
-"singular": "آم",
-"plural": "آم",
-"roman_scholarly": "ām",
-"meaning_en": "mango",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "آم پھلوں کا بادشاہ ہے۔",
-"english": "Mango is the king of fruits."
-}
-},
-{
-"rank": 164,
-"noun_urdu": "سیب",
-"gender": "M",
-"singular": "سیب",
-"plural": "سیب",
-"roman_scholarly": "seb",
-"meaning_en": "apple",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "روزانہ ایک سیب کھاؤ۔",
-"english": "Eat an apple daily."
-}
-},
-{
-"rank": 165,
-"noun_urdu": "کیلا",
-"gender": "M",
-"singular": "کیلا",
-"plural": "کیلے",
-"roman_scholarly": "kelā",
-"meaning_en": "banana",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "بچے کو کیلا بہت پسند ہے۔",
-"english": "The child likes bananas very much."
-}
-},
-{
-"rank": 166,
-"noun_urdu": "کپڑا",
-"gender": "M",
-"singular": "کپڑا",
-"plural": "کپڑے",
-"roman_scholarly": "kapṛā",
-"meaning_en": "cloth",
-"note": "See Rank 43.",
-"example": {
-"urdu": "یہ ریشمی کپڑا ہے۔",
-"english": "This is silk cloth."
-}
-},
-{
-"rank": 167,
-"noun_urdu": "قمیض",
-"gender": "F",
-"singular": "قمیض",
-"plural": "قمیضیں",
-"roman_scholarly": "qamīṣ",
-"meaning_en": "shirt",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "میری قمیض میلی ہو گئی ہے۔",
-"english": "My shirt has become dirty."
-}
-},
-{
-"rank": 168,
-"noun_urdu": "شلوار",
-"gender": "F",
-"singular": "شلوار",
-"plural": "شلواریں",
-"roman_scholarly": "shalvār",
-"meaning_en": "trousers (traditional)",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "یہ شلوار قمیض کا جوڑا ہے۔",
-"english": "This is a shalwar kameez suit."
-}
-},
-{
-"rank": 169,
-"noun_urdu": "ٹوپی",
-"gender": "F",
-"singular": "ٹوپی",
-"plural": "ٹوپیاں",
-"roman_scholarly": "ṭopī",
-"meaning_en": "cap / hat",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "سر پر ٹوپی پہن لو۔",
-"english": "Wear a cap on your head."
-}
-},
-{
-"rank": 170,
-"noun_urdu": "جراب",
-"gender": "F",
-"singular": "جراب",
-"plural": "جرابیں",
-"roman_scholarly": "jurāb",
-"meaning_en": "sock",
-"note": "Feminine consonant-ending.",
-"example": {
-"urdu": "جرابیں صاف کر لیں۔",
-"english": "Clean the socks."
-}
-},
-{
-"rank": 171,
-"noun_urdu": "چشمہ",
-"gender": "M",
-"singular": "چشمہ",
-"plural": "چشمے",
-"roman_scholarly": "cashmah",
-"meaning_en": "spectacles / spring (water)",
-"note": "Masculine 'ah' ending.",
-"example": {
-"urdu": "میرا چشمہ کہاں ہے؟",
-"english": "Where are my spectacles?"
-}
-},
-{
-"rank": 172,
-"noun_urdu": "انگوٹھی",
-"gender": "F",
-"singular": "انگوٹھی",
-"plural": "انگوٹھیاں",
-"roman_scholarly": "aṅgūṭhī",
-"meaning_en": "ring",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "یہ سونے کی انگوٹھی ہے۔",
-"english": "This is a gold ring."
-}
-},
-{
-"rank": 173,
-"noun_urdu": "ہار",
-"gender": "M",
-"singular": "ہار",
-"plural": "ہار",
-"roman_scholarly": "hār",
-"meaning_en": "necklace / defeat",
-"note": "Gender can vary by meaning; as necklace it is M.",
-"example": {
-"urdu": "اس نے ہیرا کا ہار پہنا ہے۔",
-"english": "She is wearing a diamond necklace."
-}
-},
-{
-"rank": 174,
-"noun_urdu": "دولت",
-"gender": "F",
-"singular": "دولت",
-"plural": null,
-"roman_scholarly": "daulat",
-"meaning_en": "wealth / riches",
-"note": "Feminine abstract.",
-"example": {
-"urdu": "صحت بڑی دولت ہے۔",
-"english": "Health is great wealth."
-}
-},
-{
-"rank": 175,
-"noun_urdu": "غریب",
-"gender": "M",
-"singular": "غریب",
-"plural": "غرباء",
-"roman_scholarly": "gharīb",
-"meaning_en": "poor person",
-"note": "Arabic plural 'ghurabā' is formal.",
-"example": {
-"urdu": "غریب کی مدد کرو۔",
-"english": "Help the poor."
-}
-},
-{
-"rank": 176,
-"noun_urdu": "امیر",
-"gender": "M",
-"singular": "امیر",
-"plural": "امراء",
-"roman_scholarly": "amīr",
-"meaning_en": "rich person",
-"note": "Arabic plural 'umarā' is formal.",
-"example": {
-"urdu": "وہ ایک امیر آدمی ہے۔",
-"english": "He is a rich man."
-}
-},
-{
-"rank": 177,
-"noun_urdu": "مالک",
-"gender": "M",
-"singular": "مالک",
-"plural": "مالک",
-"roman_scholarly": "mālik",
-"meaning_en": "owner / master",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "اس مکان کا مالک کون ہے؟",
-"english": "Who is the owner of this house?"
-}
-},
-{
-"rank": 178,
-"noun_urdu": "نوکر",
-"gender": "M",
-"singular": "نوکر",
-"plural": "نوکر",
-"roman_scholarly": "naukar",
-"meaning_en": "servant",
-"note": "Masculine invariant.",
-"example": {
-"urdu": "نوکر کام کر رہا ہے۔",
-"english": "The servant is working."
-}
-},
-{
-"rank": 179,
-"noun_urdu": "کام",
-"gender": "M",
-"singular": "کام",
-"plural": "کام",
-"roman_scholarly": "kām",
-"meaning_en": "work / job",
-"note": "See Rank 20.",
-"example": {
-"urdu": "آج کام بہت زیادہ ہے۔",
-"english": "There is a lot of work today."
-}
-},
-{
-"rank": 180,
-"noun_urdu": "دفتر",
-"gender": "M",
-"singular": "دفتر",
-"plural": "دفاتر",
-"roman_scholarly": "daftar",
-"meaning_en": "office / record",
-"note": "Arabic plural 'dafātir' used in administrative context.",
-"example": {
-"urdu": "وہ نو بجے دفتر جاتا ہے۔",
-"english": "He goes to the office at nine o'clock."
-}
-},
-{
-"rank": 181,
-"noun_urdu": "کرسی",
-"gender": "F",
-"singular": "کرسی",
-"plural": "کرسیاں",
-"roman_scholarly": "kursī",
-"meaning_en": "chair",
-"note": "See Rank 21.",
-"example": {
-"urdu": "آرام دہ کرسی پر بیٹھو۔",
-"english": "Sit on a comfortable chair."
-}
-},
-{
-"rank": 182,
-"noun_urdu": "خط",
-"gender": "M",
-"singular": "خط",
-"plural": "خطوط",
-"roman_scholarly": "khat̤",
-"meaning_en": "letter / line",
-"note": "Arabic plural 'khut̤ūt̤' is standard.",
-"example": {
-"urdu": "میں نے دوست کو خط لکھا۔",
-"english": "I wrote a letter to my friend."
-}
-},
-{
-"rank": 183,
-"noun_urdu": "لفافہ",
-"gender": "M",
-"singular": "لفافہ",
-"plural": "لفافے",
-"roman_scholarly": "lifāfah",
-"meaning_en": "envelope",
-"note": "Masculine 'ah' ending.",
-"example": {
-"urdu": "خط لفافے میں ڈال دو۔",
-"english": "Put the letter in the envelope."
-}
-},
-{
-"rank": 184,
-"noun_urdu": "ڈاک",
-"gender": "F",
-"singular": "ڈاک",
-"plural": null,
-"roman_scholarly": "ḍāk",
-"meaning_en": "mail / post",
-"note": "Feminine collective.",
-"example": {
-"urdu": "کیا آج کی ڈاک آ گئی؟",
-"english": "Has today's mail arrived?"
-}
-},
-{
-"rank": 185,
-"noun_urdu": "خبر",
-"gender": "F",
-"singular": "خبر",
-"plural": "اخبار",
-"roman_scholarly": "khabar",
-"meaning_en": "news",
-"note": "Arabic plural 'akhbār' is used as the singular word for newspaper.",
-"example": {
-"urdu": "یہ بہت اچھی خبر ہے۔",
-"english": "This is very good news."
-}
-},
-{
-"rank": 186,
-"noun_urdu": "اخبار",
-"gender": "M",
-"singular": "اخبار",
-"plural": "اخبارات",
-"roman_scholarly": "akhbār",
-"meaning_en": "newspaper",
-"note": "Plural of Rank 185 treated as M singular.",
-"example": {
-"urdu": "روزانہ اخبار پڑھا کرو۔",
-"english": "Read the newspaper daily."
-}
-},
-{
-"rank": 187,
-"noun_urdu": "ریڈیو",
-"gender": "M",
-"singular": "ریڈیو",
-"plural": "ریڈیو",
-"roman_scholarly": "reḍiyo",
-"meaning_en": "radio",
-"note": "Masculine invariant loanword.",
-"example": {
-"urdu": "ریڈیو پر خبریں سنو۔",
-"english": "Listen to the news on the radio."
-}
-},
-{
-"rank": 188,
-"noun_urdu": "ٹیلی ویژن",
-"gender": "M",
-"singular": "ٹیلی ویژن",
-"plural": "ٹیلی ویژن",
-"roman_scholarly": "ṭelīvīzhan",
-"meaning_en": "television",
-"note": "Masculine invariant loanword.",
-"example": {
-"urdu": "بچے ٹیلی ویژن دیکھ رہے ہیں۔",
-"english": "The children are watching television."
-}
-},
-{
-"rank": 189,
-"noun_urdu": "فون",
-"gender": "M",
-"singular": "فون",
-"plural": "فون",
-"roman_scholarly": "fon",
-"meaning_en": "phone",
-"note": "Masculine invariant loanword.",
-"example": {
-"urdu": "آپ کا فون بج رہا ہے۔",
-"english": "Your phone is ringing."
-}
-},
-{
-"rank": 190,
-"noun_urdu": "موبائل",
-"gender": "M",
-"singular": "موبائل",
-"plural": "موبائل",
-"roman_scholarly": "mubā'il",
-"meaning_en": "mobile phone",
-"note": "Masculine loanword.",
-"example": {
-"urdu": "موبائل چارج پر لگا دو۔",
-"english": "Put the mobile on charge."
-}
-},
-{
-"rank": 191,
-"noun_urdu": "کمپیوٹر",
-"gender": "M",
-"singular": "کمپیوٹر",
-"plural": "کمپیوٹر",
-"roman_scholarly": "kampiyūṭar",
-"meaning_en": "computer",
-"note": "Masculine invariant loanword.",
-"example": {
-"urdu": "کمپیوٹر ٹھیک کام نہیں کر رہا۔",
-"english": "The computer is not working properly."
-}
-},
-{
-"rank": 192,
-"noun_urdu": "بجلی",
-"gender": "F",
-"singular": "بجلی",
-"plural": null,
-"roman_scholarly": "bijlī",
-"meaning_en": "electricity / lightning",
-"note": "Feminine 'ī' ending.",
-"example": {
-"urdu": "بجلی چلی گئی ہے۔",
-"english": "The electricity has gone out."
-}
-},
-{
-"rank": 193,
-"noun_urdu": "پنکھا",
-"gender": "M",
-"singular": "پنکھا",
-"plural": "پنکھے",
-"roman_scholarly": "paṅkhā",
-"meaning_en": "fan",
-"note": "Masculine 'ā' ending.",
-"example": {
-"urdu": "پنکھا چلا دو۔",
-"english": "Turn on the fan."
-}
-},
-{
-"rank": 194,
-"noun_urdu": "روشنی",
-"gender": "F",
-"singular": "روشنی",
-"plural": "روشنیاں",
-"roman_scholarly": "raushnī",
-"meaning_en": "light",
-"note": "See Rank 62.",
-"example": {
-"urdu": "شہر میں بہت روشنیاں ہیں۔",
-"english": "There are many lights in the city."
-}
-},
-{
-"rank": 195,
-"noun_urdu": "تیل",
-"gender": "M",
-"singular": "تیل",
-"plural": null,
-"roman_scholarly": "tel",
-"meaning_en": "oil",
-"note": "See Rank 94.",
-"example": {
-"urdu": "چراغ میں تیل ختم ہو گیا۔",
-"english": "The oil in the lamp is finished."
-}
-},
-{
-"rank": 196,
-"noun_urdu": "پیٹرول",
-"gender": "M",
-"singular": "پیٹرول",
-"plural": null,
-"roman_scholarly": "peṭrol",
-"meaning_en": "petrol / gasoline",
-"note": "Masculine mass noun loanword.",
-"example": {
-"urdu": "پیٹرول کی قیمت بڑھ گئی ہے۔",
-"english": "The price of petrol has increased."
-}
-},
-{
-"rank": 197,
-"noun_urdu": "گیس",
-"gender": "F",
-"singular": "گیس",
-"plural": null,
-"roman_scholarly": "gais",
-"meaning_en": "gas",
-"note": "Feminine mass noun loanword.",
-"example": {
-"urdu": "باورچی خانے میں گیس نہیں آ رہی۔",
-"english": "Gas is not coming in the kitchen."
-}
-},
-{
-"rank": 198,
-"noun_urdu": "آگ",
-"gender": "F",
-"singular": "آگ",
-"plural": null,
-"roman_scholarly": "āg",
-"meaning_en": "fire",
-"note": "See Rank 71.",
-"example": {
-"urdu": "آگ بجھا دو۔",
-"english": "Extinguish the fire."
-}
-},
-{
-"rank": 199,
-"noun_urdu": "دھواں",
-"gender": "M",
-"singular": "دھواں",
-"plural": null,
-"roman_scholarly": "dhū'āṅ",
-"meaning_en": "smoke",
-"note": "Masculine with nasalized vowel ending.",
-"example": {
-"urdu": "ہر طرف دھواں پھیلا ہوا ہے۔",
-"english": "Smoke is spread everywhere."
-}
-},
-{
-"rank": 200,
-"noun_urdu": "خوشبو",
-"gender": "F",
-"singular": "خوشبو",
-"plural": "خوشبوئیں",
-"roman_scholarly": "khushbū",
-"meaning_en": "fragrance / aroma",
-"note": "Feminine ending in 'ū'.",
-"example": {
-"urdu": "پھولوں کی خوشبو بہت پیاری ہے۔",
-"english": "The fragrance of flowers is very lovely."
-}
-}
+  {
+    "rank": 1,
+    "noun_urdu": "آدمی",
+    "gender": "M",
+    "singular": "آدمی",
+    "plural": "آدمی",
+    "roman_scholarly": "ādmī",
+    "meaning_en": "man",
+    "note": "Invariant in the nominative plural.",
+    "example": {
+      "urdu": "وہ ایک نیک آدمی ہے۔",
+      "english": "He is a virtuous man."
+    }
+  },
+  {
+    "rank": 2,
+    "noun_urdu": "کتاب",
+    "gender": "F",
+    "singular": "کتاب",
+    "plural": "کتابیں",
+    "roman_scholarly": "kitāb",
+    "meaning_en": "book",
+    "note": "Standard feminine noun ending in a consonant.",
+    "example": {
+      "urdu": "میز پر ایک کتاب رکھی ہے۔",
+      "english": "A book is kept on the table."
+    }
+  },
+  {
+    "rank": 3,
+    "noun_urdu": "لڑکا",
+    "gender": "M",
+    "singular": "لڑکا",
+    "plural": "لڑکے",
+    "roman_scholarly": "laṛkā",
+    "meaning_en": "boy",
+    "note": "Standard masculine noun ending in 'ā'.",
+    "example": {
+      "urdu": "لڑکا سکول جا رہا ہے۔",
+      "english": "The boy is going to school."
+    }
+  },
+  {
+    "rank": 4,
+    "noun_urdu": "لڑکی",
+    "gender": "F",
+    "singular": "لڑکی",
+    "plural": "لڑکیاں",
+    "roman_scholarly": "laṛkī",
+    "meaning_en": "girl",
+    "note": "Standard feminine noun ending in 'ī'.",
+    "example": {
+      "urdu": "لڑکی گڑیا سے کھیل رہی ہے۔",
+      "english": "The girl is playing with a doll."
+    }
+  },
+  {
+    "rank": 5,
+    "noun_urdu": "گھر",
+    "gender": "M",
+    "singular": "گھر",
+    "plural": "گھر",
+    "roman_scholarly": "ghar",
+    "meaning_en": "house / home",
+    "note": "Consonant-ending masculine noun, invariant in nominative plural.",
+    "example": {
+      "urdu": "میرا گھر بہت بڑا ہے۔",
+      "english": "My house is very big."
+    }
+  },
+  {
+    "rank": 6,
+    "noun_urdu": "بات",
+    "gender": "F",
+    "singular": "بات",
+    "plural": "باتیں",
+    "roman_scholarly": "bāt",
+    "meaning_en": "matter / word / thing said",
+    "note": "Abstract feminine noun.",
+    "example": {
+      "urdu": "میری بات غور سے سنو۔",
+      "english": "Listen to my words carefully."
+    }
+  },
+  {
+    "rank": 7,
+    "noun_urdu": "وقت",
+    "gender": "M",
+    "singular": "وقت",
+    "plural": "اوقات",
+    "roman_scholarly": "vaqt",
+    "meaning_en": "time",
+    "note": "Plural 'auqāt' is used, but 'vaqt' is also used collectively.",
+    "example": {
+      "urdu": "وقت کسی کا انتظار نہیں کرتا۔",
+      "english": "Time waits for no one."
+    }
+  },
+  {
+    "rank": 8,
+    "noun_urdu": "پانی",
+    "gender": "M",
+    "singular": "پانی",
+    "plural": null,
+    "roman_scholarly": "pānī",
+    "meaning_en": "water",
+    "note": "Mass noun; masculine despite ending in 'ī'.",
+    "example": {
+      "urdu": "مجھے ایک گلاس پانی چاہیے۔",
+      "english": "I want a glass of water."
+    }
+  },
+  {
+    "rank": 9,
+    "noun_urdu": "دن",
+    "gender": "M",
+    "singular": "دن",
+    "plural": "دن",
+    "roman_scholarly": "din",
+    "meaning_en": "day",
+    "note": "Masculine consonant-ending noun.",
+    "example": {
+      "urdu": "آج کا دن بہت گرم ہے۔",
+      "english": "Today is a very hot day."
+    }
+  },
+  {
+    "rank": 10,
+    "noun_urdu": "رات",
+    "gender": "F",
+    "singular": "رات",
+    "plural": "راتیں",
+    "roman_scholarly": "rāt",
+    "meaning_en": "night",
+    "note": "Feminine noun ending in a consonant.",
+    "example": {
+      "urdu": "رات بہت اندھیری ہے۔",
+      "english": "The night is very dark."
+    }
+  },
+  {
+    "rank": 11,
+    "noun_urdu": "شہر",
+    "gender": "M",
+    "singular": "شہر",
+    "plural": "شہر",
+    "roman_scholarly": "shahr",
+    "meaning_en": "city",
+    "note": "Invariant nominative plural.",
+    "example": {
+      "urdu": "یہ شہر بہت پرانا ہے۔",
+      "english": "This city is very old."
+    }
+  },
+  {
+    "rank": 12,
+    "noun_urdu": "آنکھ",
+    "gender": "F",
+    "singular": "آنکھ",
+    "plural": "آنکھیں",
+    "roman_scholarly": "āṅkh",
+    "meaning_en": "eye",
+    "note": "Anatomy, feminine.",
+    "example": {
+      "urdu": "اس کی آنکھیں نیلی ہیں۔",
+      "english": "Her eyes are blue."
+    }
+  },
+  {
+    "rank": 13,
+    "noun_urdu": "ہاتھ",
+    "gender": "M",
+    "singular": "ہاتھ",
+    "plural": "ہاتھ",
+    "roman_scholarly": "hāth",
+    "meaning_en": "hand",
+    "note": "Anatomy, masculine invariant.",
+    "example": {
+      "urdu": "اپنے ہاتھ دھو لیں۔",
+      "english": "Wash your hands."
+    }
+  },
+  {
+    "rank": 14,
+    "noun_urdu": "زندگی",
+    "gender": "F",
+    "singular": "زندگی",
+    "plural": null,
+    "roman_scholarly": "ziṅdagī",
+    "meaning_en": "life",
+    "note": "Abstract noun.",
+    "example": {
+      "urdu": "زندگی بہت خوبصورت ہے۔",
+      "english": "Life is very beautiful."
+    }
+  },
+  {
+    "rank": 15,
+    "noun_urdu": "دل",
+    "gender": "M",
+    "singular": "دل",
+    "plural": "دل",
+    "roman_scholarly": "dil",
+    "meaning_en": "heart",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "میرا دل خوش ہے۔",
+      "english": "My heart is happy."
+    }
+  },
+  {
+    "rank": 16,
+    "noun_urdu": "دوست",
+    "gender": "M",
+    "singular": "دوست",
+    "plural": "دوست",
+    "roman_scholarly": "dost",
+    "meaning_en": "friend",
+    "note": "Can be used for females, but grammatically M is standard.",
+    "example": {
+      "urdu": "احمد میرا بہترین دوست ہے۔",
+      "english": "Ahmed is my best friend."
+    }
+  },
+  {
+    "rank": 17,
+    "noun_urdu": "ماں",
+    "gender": "F",
+    "singular": "ماں",
+    "plural": "ماؤں",
+    "roman_scholarly": "māṅ",
+    "meaning_en": "mother",
+    "note": "Irregular pluralization in oblique cases.",
+    "example": {
+      "urdu": "ماں کی دعا جنت کی ہوا ہے۔",
+      "english": "A mother's prayer is the breeze of paradise."
+    }
+  },
+  {
+    "rank": 18,
+    "noun_urdu": "باپ",
+    "gender": "M",
+    "singular": "باپ",
+    "plural": "باپ",
+    "roman_scholarly": "bāp",
+    "meaning_en": "father",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "اس کے باپ ایک ڈاکٹر ہیں۔",
+      "english": "His father is a doctor."
+    }
+  },
+  {
+    "rank": 19,
+    "noun_urdu": "کھانا",
+    "gender": "M",
+    "singular": "کھانا",
+    "plural": "کھانے",
+    "roman_scholarly": "khānā",
+    "meaning_en": "food / meal",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "کھانا بہت لذیذ ہے۔",
+      "english": "The food is very delicious."
+    }
+  },
+  {
+    "rank": 20,
+    "noun_urdu": "کام",
+    "gender": "M",
+    "singular": "کام",
+    "plural": "کام",
+    "roman_scholarly": "kām",
+    "meaning_en": "work",
+    "note": "General term for tasks or work.",
+    "example": {
+      "urdu": "میں اپنا کام کر رہا ہوں۔",
+      "english": "I am doing my work."
+    }
+  },
+  {
+    "rank": 21,
+    "noun_urdu": "کرسی",
+    "gender": "F",
+    "singular": "کرسی",
+    "plural": "کرسیاں",
+    "roman_scholarly": "kursī",
+    "meaning_en": "chair",
+    "note": "Standard 'ī' ending feminine.",
+    "example": {
+      "urdu": "کرسی پر بیٹھ جاؤ۔",
+      "english": "Sit on the chair."
+    }
+  },
+  {
+    "rank": 22,
+    "noun_urdu": "میز",
+    "gender": "F",
+    "singular": "میز",
+    "plural": "میزیں",
+    "roman_scholarly": "mez",
+    "meaning_en": "table",
+    "note": "Loanword (Persian/Portuguese), feminine in Urdu.",
+    "example": {
+      "urdu": "میز پر کھانا لگا دو۔",
+      "english": "Set the food on the table."
+    }
+  },
+  {
+    "rank": 23,
+    "noun_urdu": "دروازہ",
+    "gender": "M",
+    "singular": "دروازہ",
+    "plural": "دروازے",
+    "roman_scholarly": "darvāzah",
+    "meaning_en": "door",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "دروازہ بند کر دو۔",
+      "english": "Close the door."
+    }
+  },
+  {
+    "rank": 24,
+    "noun_urdu": "کھڑکی",
+    "gender": "F",
+    "singular": "کھڑکی",
+    "plural": "کھڑکیاں",
+    "roman_scholarly": "khiṛkī",
+    "meaning_en": "window",
+    "note": "Standard 'ī' ending feminine.",
+    "example": {
+      "urdu": "کھڑکی کھول دو۔",
+      "english": "Open the window."
+    }
+  },
+  {
+    "rank": 25,
+    "noun_urdu": "درخت",
+    "gender": "M",
+    "singular": "درخت",
+    "plural": "درخت",
+    "roman_scholarly": "darakht",
+    "meaning_en": "tree",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "یہ درخت بہت سایہ دار ہے۔",
+      "english": "This tree is very shady."
+    }
+  },
+  {
+    "rank": 26,
+    "noun_urdu": "پھول",
+    "gender": "M",
+    "singular": "پھول",
+    "plural": "پھول",
+    "roman_scholarly": "phūl",
+    "meaning_en": "flower",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "گلاب کا پھول سرخ ہے۔",
+      "english": "The rose flower is red."
+    }
+  },
+  {
+    "rank": 27,
+    "noun_urdu": "سورج",
+    "gender": "M",
+    "singular": "سورج",
+    "plural": null,
+    "roman_scholarly": "sūraj",
+    "meaning_en": "sun",
+    "note": "Singular celestial body.",
+    "example": {
+      "urdu": "سورج مشرق سے نکلتا ہے۔",
+      "english": "The sun rises in the east."
+    }
+  },
+  {
+    "rank": 28,
+    "noun_urdu": "چاند",
+    "gender": "M",
+    "singular": "چاند",
+    "plural": null,
+    "roman_scholarly": "cāṅd",
+    "meaning_en": "moon",
+    "note": "Singular celestial body.",
+    "example": {
+      "urdu": "آج چاند پورا ہے۔",
+      "english": "The moon is full today."
+    }
+  },
+  {
+    "rank": 29,
+    "noun_urdu": "ستارہ",
+    "gender": "M",
+    "singular": "ستارہ",
+    "plural": "ستارے",
+    "roman_scholarly": "sitārah",
+    "meaning_en": "star",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "آسمان پر ستارے چمک رہے ہیں۔",
+      "english": "Stars are shining in the sky."
+    }
+  },
+  {
+    "rank": 30,
+    "noun_urdu": "آسمان",
+    "gender": "M",
+    "singular": "آسمان",
+    "plural": null,
+    "roman_scholarly": "āsmān",
+    "meaning_en": "sky",
+    "note": "Masculine.",
+    "example": {
+      "urdu": "آسمان نیلا ہے۔",
+      "english": "The sky is blue."
+    }
+  },
+  {
+    "rank": 31,
+    "noun_urdu": "زمین",
+    "gender": "F",
+    "singular": "زمین",
+    "plural": "زمینیں",
+    "roman_scholarly": "zamīn",
+    "meaning_en": "earth / land / floor",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "زمین گول ہے۔",
+      "english": "The earth is round."
+    }
+  },
+  {
+    "rank": 32,
+    "noun_urdu": "ہوا",
+    "gender": "F",
+    "singular": "ہوا",
+    "plural": "ہوائیں",
+    "roman_scholarly": "havā",
+    "meaning_en": "air / wind",
+    "note": "Feminine ending in 'ā'.",
+    "example": {
+      "urdu": "ٹھنڈی ہوا چل رہی ہے۔",
+      "english": "Cold wind is blowing."
+    }
+  },
+  {
+    "rank": 33,
+    "noun_urdu": "سمندر",
+    "gender": "M",
+    "singular": "سمندر",
+    "plural": "سمندر",
+    "roman_scholarly": "samuṅdar",
+    "meaning_en": "sea / ocean",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "سمندر بہت گہرا ہے۔",
+      "english": "The sea is very deep."
+    }
+  },
+  {
+    "rank": 34,
+    "noun_urdu": "دریا",
+    "gender": "M",
+    "singular": "دریا",
+    "plural": "دریا",
+    "roman_scholarly": "daryā",
+    "meaning_en": "river",
+    "note": "Invariant in nominative plural despite ending in 'ā'.",
+    "example": {
+      "urdu": "دریا میں پانی کم ہے۔",
+      "english": "There is little water in the river."
+    }
+  },
+  {
+    "rank": 35,
+    "noun_urdu": "پہاڑ",
+    "gender": "M",
+    "singular": "پہاڑ",
+    "plural": "پہاڑ",
+    "roman_scholarly": "pahāṛ",
+    "meaning_en": "mountain",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "پہاڑ پر برف پڑ رہی ہے۔",
+      "english": "Snow is falling on the mountain."
+    }
+  },
+  {
+    "rank": 36,
+    "noun_urdu": "راستہ",
+    "gender": "M",
+    "singular": "راستہ",
+    "plural": "راستے",
+    "roman_scholarly": "rāstah",
+    "meaning_en": "way / path",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "یہ راستہ کدھر جاتا ہے؟",
+      "english": "Where does this path lead?"
+    }
+  },
+  {
+    "rank": 37,
+    "noun_urdu": "سفر",
+    "gender": "M",
+    "singular": "سفر",
+    "plural": "اسفار",
+    "roman_scholarly": "safar",
+    "meaning_en": "journey / travel",
+    "note": "Arabic plural 'asfār' is formal; 'safar' used as M invariant in speech.",
+    "example": {
+      "urdu": "آپ کا سفر کیسا رہا؟",
+      "english": "How was your journey?"
+    }
+  },
+  {
+    "rank": 38,
+    "noun_urdu": "خوشی",
+    "gender": "F",
+    "singular": "خوشی",
+    "plural": "خوشیاں",
+    "roman_scholarly": "khushī",
+    "meaning_en": "happiness / joy",
+    "note": "Abstract 'ī' ending feminine.",
+    "example": {
+      "urdu": "یہ ہمارے لیے بڑی خوشی کی بات ہے۔",
+      "english": "This is a matter of great joy for us."
+    }
+  },
+  {
+    "rank": 39,
+    "noun_urdu": "غم",
+    "gender": "M",
+    "singular": "غم",
+    "plural": "غم",
+    "roman_scholarly": "gham",
+    "meaning_en": "sorrow / grief",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "زندگی خوشی اور غم کا نام ہے۔",
+      "english": "Life is the name of joy and sorrow."
+    }
+  },
+  {
+    "rank": 40,
+    "noun_urdu": "سوال",
+    "gender": "M",
+    "singular": "سوال",
+    "plural": "سوالات",
+    "roman_scholarly": "savāl",
+    "meaning_en": "question",
+    "note": "Plural uses Arabic '-āt' suffix.",
+    "example": {
+      "urdu": "میرا ایک سوال ہے۔",
+      "english": "I have a question."
+    }
+  },
+  {
+    "rank": 41,
+    "noun_urdu": "جواب",
+    "gender": "M",
+    "singular": "جواب",
+    "plural": "جوابات",
+    "roman_scholarly": "javāb",
+    "meaning_en": "answer",
+    "note": "Plural uses Arabic '-āt' suffix.",
+    "example": {
+      "urdu": "اس سوال کا جواب مشکل ہے۔",
+      "english": "The answer to this question is difficult."
+    }
+  },
+  {
+    "rank": 42,
+    "noun_urdu": "کمرہ",
+    "gender": "M",
+    "singular": "کمرہ",
+    "plural": "کمرے",
+    "roman_scholarly": "kamrah",
+    "meaning_en": "room",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "یہ کمرہ صاف ہے۔",
+      "english": "This room is clean."
+    }
+  },
+  {
+    "rank": 43,
+    "noun_urdu": "کپڑا",
+    "gender": "M",
+    "singular": "کپڑا",
+    "plural": "کپڑے",
+    "roman_scholarly": "kapṛā",
+    "meaning_en": "cloth / clothes",
+    "note": "Plural 'kapṛe' often means clothes in general.",
+    "example": {
+      "urdu": "نئے کپڑے پہن لو۔",
+      "english": "Put on new clothes."
+    }
+  },
+  {
+    "rank": 44,
+    "noun_urdu": "جوتا",
+    "gender": "M",
+    "singular": "جوتا",
+    "plural": "جوتے",
+    "roman_scholarly": "jūtā",
+    "meaning_en": "shoe",
+    "note": "Masculine ending in 'ā'.",
+    "example": {
+      "urdu": "میرا جوتا ٹوٹ گیا ہے۔",
+      "english": "My shoe is broken."
+    }
+  },
+  {
+    "rank": 45,
+    "noun_urdu": "روٹی",
+    "gender": "F",
+    "singular": "روٹی",
+    "plural": "روٹیاں",
+    "roman_scholarly": "roṭī",
+    "meaning_en": "bread / food",
+    "note": "Often used for food in general.",
+    "example": {
+      "urdu": "روٹی تیار ہے۔",
+      "english": "The bread is ready."
+    }
+  },
+  {
+    "rank": 46,
+    "noun_urdu": "چائے",
+    "gender": "F",
+    "singular": "چائے",
+    "plural": null,
+    "roman_scholarly": "cā'e",
+    "meaning_en": "tea",
+    "note": "Feminine mass noun.",
+    "example": {
+      "urdu": "کیا آپ چائے پئیں گے؟",
+      "english": "Will you drink tea?"
+    }
+  },
+  {
+    "rank": 47,
+    "noun_urdu": "دودھ",
+    "gender": "M",
+    "singular": "دودھ",
+    "plural": null,
+    "roman_scholarly": "dūdh",
+    "meaning_en": "milk",
+    "note": "Masculine mass noun.",
+    "example": {
+      "urdu": "بچہ دودھ پی رہا ہے۔",
+      "english": "The baby is drinking milk."
+    }
+  },
+  {
+    "rank": 48,
+    "noun_urdu": "پھل",
+    "gender": "M",
+    "singular": "پھل",
+    "plural": "پھل",
+    "roman_scholarly": "phal",
+    "meaning_en": "fruit",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "پھل صحت کے لیے اچھے ہیں۔",
+      "english": "Fruits are good for health."
+    }
+  },
+  {
+    "rank": 49,
+    "noun_urdu": "نام",
+    "gender": "M",
+    "singular": "نام",
+    "plural": "نام",
+    "roman_scholarly": "nām",
+    "meaning_en": "name",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "آپ کا نام کیا ہے؟",
+      "english": "What is your name?"
+    }
+  },
+  {
+    "rank": 50,
+    "noun_urdu": "ملک",
+    "gender": "M",
+    "singular": "ملک",
+    "plural": "ممالک",
+    "roman_scholarly": "mulk",
+    "meaning_en": "country",
+    "note": "Arabic broken plural 'mamālik' is commonly used.",
+    "example": {
+      "urdu": "پاکستان میرا ملک ہے۔",
+      "english": "Pakistan is my country."
+    }
+  },
+  {
+    "rank": 51,
+    "noun_urdu": "صوبہ",
+    "gender": "M",
+    "singular": "صوبہ",
+    "plural": "صوبے",
+    "roman_scholarly": "ṣūbah",
+    "meaning_en": "province",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "پنجاب ایک بڑا صوبہ ہے۔",
+      "english": "Punjab is a large province."
+    }
+  },
+  {
+    "rank": 52,
+    "noun_urdu": "زبان",
+    "gender": "F",
+    "singular": "زبان",
+    "plural": "زبانیں",
+    "roman_scholarly": "zabān",
+    "meaning_en": "language / tongue",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "اردو میری مادری زبان ہے۔",
+      "english": "Urdu is my mother tongue."
+    }
+  },
+  {
+    "rank": 53,
+    "noun_urdu": "سر",
+    "gender": "M",
+    "singular": "سر",
+    "plural": "سر",
+    "roman_scholarly": "sar",
+    "meaning_en": "head",
+    "note": "Anatomy, masculine invariant.",
+    "example": {
+      "urdu": "میرے سر میں درد ہے۔",
+      "english": "I have a headache (pain in my head)."
+    }
+  },
+  {
+    "rank": 54,
+    "noun_urdu": "پاؤں",
+    "gender": "M",
+    "singular": "پاؤں",
+    "plural": "پاؤں",
+    "roman_scholarly": "pā'oṅ",
+    "meaning_en": "foot / leg",
+    "note": "Anatomy, masculine invariant.",
+    "example": {
+      "urdu": "پاؤں میں جوتا نہیں ہے۔",
+      "english": "There is no shoe on the foot."
+    }
+  },
+  {
+    "rank": 55,
+    "noun_urdu": "جسم",
+    "gender": "M",
+    "singular": "جسم",
+    "plural": "اجسام",
+    "roman_scholarly": "jism",
+    "meaning_en": "body",
+    "note": "Arabic plural 'ajsām' used in scientific contexts.",
+    "example": {
+      "urdu": "ورزش جسم کے لیے ضروری ہے۔",
+      "english": "Exercise is necessary for the body."
+    }
+  },
+  {
+    "rank": 56,
+    "noun_urdu": "خون",
+    "gender": "M",
+    "singular": "خون",
+    "plural": null,
+    "roman_scholarly": "khūn",
+    "meaning_en": "blood",
+    "note": "Masculine mass noun.",
+    "example": {
+      "urdu": "خون کا رنگ سرخ ہے۔",
+      "english": "The color of blood is red."
+    }
+  },
+  {
+    "rank": 57,
+    "noun_urdu": "امید",
+    "gender": "F",
+    "singular": "امید",
+    "plural": "امیدیں",
+    "roman_scholarly": "ummīd",
+    "meaning_en": "hope",
+    "note": "Feminine abstract noun.",
+    "example": {
+      "urdu": "ہمیں اچھی امید رکھنی چاہیے۔",
+      "english": "We should keep good hope."
+    }
+  },
+  {
+    "rank": 58,
+    "noun_urdu": "محبت",
+    "gender": "F",
+    "singular": "محبت",
+    "plural": null,
+    "roman_scholarly": "muḥabbat",
+    "meaning_en": "love",
+    "note": "Feminine abstract noun.",
+    "example": {
+      "urdu": "محبت اندھی ہوتی ہے۔",
+      "english": "Love is blind."
+    }
+  },
+  {
+    "rank": 59,
+    "noun_urdu": "نفرت",
+    "gender": "F",
+    "singular": "نفرت",
+    "plural": null,
+    "roman_scholarly": "nafrat",
+    "meaning_en": "hatred",
+    "note": "Feminine abstract noun.",
+    "example": {
+      "urdu": "نفرت کو ختم کرو۔",
+      "english": "End the hatred."
+    }
+  },
+  {
+    "rank": 60,
+    "noun_urdu": "خواب",
+    "gender": "M",
+    "singular": "خواب",
+    "plural": "خواب",
+    "roman_scholarly": "khvāb",
+    "meaning_en": "dream",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "کل میں نے ایک اچھا خواب دیکھا۔",
+      "english": "Yesterday I saw a good dream."
+    }
+  },
+  {
+    "rank": 61,
+    "noun_urdu": "آواز",
+    "gender": "F",
+    "singular": "آواز",
+    "plural": "آوازیں",
+    "roman_scholarly": "āvāz",
+    "meaning_en": "voice / sound",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "اس کی آواز بہت پیاری ہے۔",
+      "english": "Her voice is very sweet."
+    }
+  },
+  {
+    "rank": 62,
+    "noun_urdu": "روشنی",
+    "gender": "F",
+    "singular": "روشنی",
+    "plural": null,
+    "roman_scholarly": "raushnī",
+    "meaning_en": "light",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "کمرے میں روشنی بہت کم ہے۔",
+      "english": "There is very little light in the room."
+    }
+  },
+  {
+    "rank": 63,
+    "noun_urdu": "اندھیرا",
+    "gender": "M",
+    "singular": "اندھیرا",
+    "plural": null,
+    "roman_scholarly": "andherā",
+    "meaning_en": "darkness",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "باہر بہت اندھیرا ہے۔",
+      "english": "It is very dark outside."
+    }
+  },
+  {
+    "rank": 64,
+    "noun_urdu": "بچہ",
+    "gender": "M",
+    "singular": "بچہ",
+    "plural": "بچے",
+    "roman_scholarly": "bacah",
+    "meaning_en": "child / baby boy",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "بچہ رو رہا ہے۔",
+      "english": "The child is crying."
+    }
+  },
+  {
+    "rank": 65,
+    "noun_urdu": "بچی",
+    "gender": "F",
+    "singular": "بچی",
+    "plural": "بچیاں",
+    "roman_scholarly": "bacī",
+    "meaning_en": "child / baby girl",
+    "note": "Feminine ending in 'ī'.",
+    "example": {
+      "urdu": "بچی سو رہی ہے۔",
+      "english": "The baby girl is sleeping."
+    }
+  },
+  {
+    "rank": 66,
+    "noun_urdu": "لوگ",
+    "gender": "M",
+    "singular": "آدمی / شخص",
+    "plural": "لوگ",
+    "roman_scholarly": "log",
+    "meaning_en": "people",
+    "note": "Always plural in usage.",
+    "example": {
+      "urdu": "لوگ کیا کہیں گے؟",
+      "english": "What will people say?"
+    }
+  },
+  {
+    "rank": 67,
+    "noun_urdu": "دنیا",
+    "gender": "F",
+    "singular": "دنیا",
+    "plural": "دنیاؤں",
+    "roman_scholarly": "dunyā",
+    "meaning_en": "world",
+    "note": "Feminine ending in 'ā'.",
+    "example": {
+      "urdu": "دنیا ایک مسافر خانہ ہے۔",
+      "english": "The world is an inn."
+    }
+  },
+  {
+    "rank": 68,
+    "noun_urdu": "موسم",
+    "gender": "M",
+    "singular": "موسم",
+    "plural": "موسم",
+    "roman_scholarly": "mausam",
+    "meaning_en": "weather / season",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "آج موسم بہت سہانا ہے۔",
+      "english": "The weather is very pleasant today."
+    }
+  },
+  {
+    "rank": 69,
+    "noun_urdu": "بارش",
+    "gender": "F",
+    "singular": "بارش",
+    "plural": "بارشیں",
+    "roman_scholarly": "bārish",
+    "meaning_en": "rain",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "باہر تیز بارش ہو رہی ہے۔",
+      "english": "It is raining heavily outside."
+    }
+  },
+  {
+    "rank": 70,
+    "noun_urdu": "برف",
+    "gender": "F",
+    "singular": "برف",
+    "plural": null,
+    "roman_scholarly": "barf",
+    "meaning_en": "ice / snow",
+    "note": "Feminine mass noun.",
+    "example": {
+      "urdu": "پانی میں تھوڑی برف ڈال دو۔",
+      "english": "Put some ice in the water."
+    }
+  },
+  {
+    "rank": 71,
+    "noun_urdu": "آگ",
+    "gender": "F",
+    "singular": "آگ",
+    "plural": null,
+    "roman_scholarly": "āg",
+    "meaning_en": "fire",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "آگ سے دور رہو۔",
+      "english": "Stay away from the fire."
+    }
+  },
+  {
+    "rank": 72,
+    "noun_urdu": "درد",
+    "gender": "M",
+    "singular": "درد",
+    "plural": "درد",
+    "roman_scholarly": "dard",
+    "meaning_en": "pain",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "اس کے دانت میں درد ہے۔",
+      "english": "He has a pain in his tooth."
+    }
+  },
+  {
+    "rank": 73,
+    "noun_urdu": "دوا",
+    "gender": "F",
+    "singular": "دوا",
+    "plural": "دوائیں / ادویات",
+    "roman_scholarly": "davā",
+    "meaning_en": "medicine",
+    "note": "Plural 'adviyāt' is formal.",
+    "example": {
+      "urdu": "وقت پر دوا لو۔",
+      "english": "Take the medicine on time."
+    }
+  },
+  {
+    "rank": 74,
+    "noun_urdu": "طبیعت",
+    "gender": "F",
+    "singular": "طبیعت",
+    "plural": null,
+    "roman_scholarly": "t̤abīʿat",
+    "meaning_en": "health / temperament",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "آج میری طبیعت ٹھیک نہیں ہے۔",
+      "english": "My health is not good today."
+    }
+  },
+  {
+    "rank": 75,
+    "noun_urdu": "اسکول",
+    "gender": "M",
+    "singular": "اسکول",
+    "plural": "اسکول",
+    "roman_scholarly": "iskūl",
+    "meaning_en": "school",
+    "note": "Masculine loanword.",
+    "example": {
+      "urdu": "بچے اسکول جا رہے ہیں۔",
+      "english": "The children are going to school."
+    }
+  },
+  {
+    "rank": 76,
+    "noun_urdu": "استاد",
+    "gender": "M",
+    "singular": "استاد",
+    "plural": "اساتذہ",
+    "roman_scholarly": "ustād",
+    "meaning_en": "teacher",
+    "note": "Arabic plural 'asātizah' is used.",
+    "example": {
+      "urdu": "استاد کا احترام ضروری ہے۔",
+      "english": "Respect for the teacher is necessary."
+    }
+  },
+  {
+    "rank": 77,
+    "noun_urdu": "سبق",
+    "gender": "M",
+    "singular": "سبق",
+    "plural": "اسباق",
+    "roman_scholarly": "sabaq",
+    "meaning_en": "lesson",
+    "note": "Arabic plural 'asbāq' used in formal contexts.",
+    "example": {
+      "urdu": "آج کا سبق بہت آسان ہے۔",
+      "english": "Today's lesson is very easy."
+    }
+  },
+  {
+    "rank": 78,
+    "noun_urdu": "قلم",
+    "gender": "M",
+    "singular": "قلم",
+    "plural": "اقلام",
+    "roman_scholarly": "qalam",
+    "meaning_en": "pen",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "میرا قلم کدھر ہے؟",
+      "english": "Where is my pen?"
+    }
+  },
+  {
+    "rank": 79,
+    "noun_urdu": "کاغذ",
+    "gender": "M",
+    "singular": "کاغذ",
+    "plural": "کاغذات",
+    "roman_scholarly": "kāghaz",
+    "meaning_en": "paper / document",
+    "note": "Plural 'kāghazāt' refers to documents.",
+    "example": {
+      "urdu": "اس کاغذ پر اپنا نام لکھو۔",
+      "english": "Write your name on this paper."
+    }
+  },
+  {
+    "rank": 80,
+    "noun_urdu": "رنگ",
+    "gender": "M",
+    "singular": "رنگ",
+    "plural": "رنگ",
+    "roman_scholarly": "raṅg",
+    "meaning_en": "color",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "آپ کا پسندیدہ رنگ کون سا ہے؟",
+      "english": "Which is your favorite color?"
+    }
+  },
+  {
+    "rank": 81,
+    "noun_urdu": "بات چیت",
+    "gender": "F",
+    "singular": "بات چیت",
+    "plural": null,
+    "roman_scholarly": "bāt cīt",
+    "meaning_en": "conversation",
+    "note": "Compound feminine noun.",
+    "example": {
+      "urdu": "ان کے درمیان بات چیت ہو رہی ہے۔",
+      "english": "A conversation is happening between them."
+    }
+  },
+  {
+    "rank": 82,
+    "noun_urdu": "کہانی",
+    "gender": "F",
+    "singular": "کہانی",
+    "plural": "کہانیاں",
+    "roman_scholarly": "kahānī",
+    "meaning_en": "story",
+    "note": "Standard 'ī' ending feminine.",
+    "example": {
+      "urdu": "دادی نے ایک کہانی سنائی۔",
+      "english": "Grandmother told a story."
+    }
+  },
+  {
+    "rank": 83,
+    "noun_urdu": "سچ",
+    "gender": "M",
+    "singular": "سچ",
+    "plural": null,
+    "roman_scholarly": "sac",
+    "meaning_en": "truth",
+    "note": "Masculine abstract.",
+    "example": {
+      "urdu": "ہمیشہ سچ بولو۔",
+      "english": "Always speak the truth."
+    }
+  },
+  {
+    "rank": 84,
+    "noun_urdu": "جھوٹ",
+    "gender": "M",
+    "singular": "جھوٹ",
+    "plural": "جھوٹ",
+    "roman_scholarly": "jhūṭ",
+    "meaning_en": "lie",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "جھوٹ بولنا گناہ ہے۔",
+      "english": "Telling a lie is a sin."
+    }
+  },
+  {
+    "rank": 85,
+    "noun_urdu": "گناہ",
+    "gender": "M",
+    "singular": "گناہ",
+    "plural": "گناہ",
+    "roman_scholarly": "gunāh",
+    "meaning_en": "sin",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "چوری کرنا گناہ ہے۔",
+      "english": "Stealing is a sin."
+    }
+  },
+  {
+    "rank": 86,
+    "noun_urdu": "نیکی",
+    "gender": "F",
+    "singular": "نیکی",
+    "plural": "نیکیاں",
+    "roman_scholarly": "nekī",
+    "meaning_en": "virtue / good deed",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "نیکی کبھی ضائع نہیں ہوتی۔",
+      "english": "Virtue never goes to waste."
+    }
+  },
+  {
+    "rank": 87,
+    "noun_urdu": "خدا",
+    "gender": "M",
+    "singular": "خدا",
+    "plural": null,
+    "roman_scholarly": "khudā",
+    "meaning_en": "God",
+    "note": "Masculine.",
+    "example": {
+      "urdu": "خدا پر بھروسہ رکھو۔",
+      "english": "Have trust in God."
+    }
+  },
+  {
+    "rank": 88,
+    "noun_urdu": "دعا",
+    "gender": "F",
+    "singular": "دعا",
+    "plural": "دعائیں",
+    "roman_scholarly": "duʿā",
+    "meaning_en": "prayer / blessing",
+    "note": "Feminine ending in 'ā'.",
+    "example": {
+      "urdu": "مجھے اپنی دعاؤں میں یاد رکھنا۔",
+      "english": "Remember me in your prayers."
+    }
+  },
+  {
+    "rank": 89,
+    "noun_urdu": "نماز",
+    "gender": "F",
+    "singular": "نماز",
+    "plural": "نمازیں",
+    "roman_scholarly": "namāz",
+    "meaning_en": "Islamic prayer",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "نماز پڑھنا فرض ہے۔",
+      "english": "Performing prayer is obligatory."
+    }
+  },
+  {
+    "rank": 90,
+    "noun_urdu": "مسجد",
+    "gender": "F",
+    "singular": "مسجد",
+    "plural": "مساجد",
+    "roman_scholarly": "masjid",
+    "meaning_en": "mosque",
+    "note": "Arabic plural 'masājid' is common.",
+    "example": {
+      "urdu": "لوگ مسجد جا رہے ہیں۔",
+      "english": "People are going to the mosque."
+    }
+  },
+  {
+    "rank": 91,
+    "noun_urdu": "گوشت",
+    "gender": "M",
+    "singular": "گوشت",
+    "plural": null,
+    "roman_scholarly": "gosht",
+    "meaning_en": "meat",
+    "note": "Masculine mass noun.",
+    "example": {
+      "urdu": "کیا آپ گوشت کھاتے ہیں؟",
+      "english": "Do you eat meat?"
+    }
+  },
+  {
+    "rank": 92,
+    "noun_urdu": "سبزی",
+    "gender": "F",
+    "singular": "سبزی",
+    "plural": "سبزیاں",
+    "roman_scholarly": "sabzī",
+    "meaning_en": "vegetable",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "سبزی تازہ ہونی چاہیے۔",
+      "english": "Vegetables should be fresh."
+    }
+  },
+  {
+    "rank": 93,
+    "noun_urdu": "پیاز",
+    "gender": "M",
+    "singular": "پیاز",
+    "plural": "پیاز",
+    "roman_scholarly": "pyāz",
+    "meaning_en": "onion",
+    "note": "Masculine in Urdu (unlike Hindi).",
+    "example": {
+      "urdu": "پیاز کاٹنا مشکل کام ہے۔",
+      "english": "Cutting onions is a difficult task."
+    }
+  },
+  {
+    "rank": 94,
+    "noun_urdu": "تیل",
+    "gender": "M",
+    "singular": "تیل",
+    "plural": null,
+    "roman_scholarly": "tel",
+    "meaning_en": "oil",
+    "note": "Masculine mass noun.",
+    "example": {
+      "urdu": "کھانے میں تیل کم ڈالیں۔",
+      "english": "Put less oil in the food."
+    }
+  },
+  {
+    "rank": 95,
+    "noun_urdu": "نمک",
+    "gender": "M",
+    "singular": "نمک",
+    "plural": null,
+    "roman_scholarly": "namak",
+    "meaning_en": "salt",
+    "note": "Masculine mass noun.",
+    "example": {
+      "urdu": "نمک حسبِ ذائقہ ڈالیں۔",
+      "english": "Add salt according to taste."
+    }
+  },
+  {
+    "rank": 96,
+    "noun_urdu": "چینی",
+    "gender": "F",
+    "singular": "چینی",
+    "plural": null,
+    "roman_scholarly": "cīnī",
+    "meaning_en": "sugar",
+    "note": "Feminine mass noun.",
+    "example": {
+      "urdu": "چائے میں چینی کم ہے۔",
+      "english": "There is less sugar in the tea."
+    }
+  },
+  {
+    "rank": 97,
+    "noun_urdu": "کوشش",
+    "gender": "F",
+    "singular": "کوشش",
+    "plural": "کوششیں",
+    "roman_scholarly": "koshish",
+    "meaning_en": "effort / try",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "دوبارہ کوشش کرو۔",
+      "english": "Try again."
+    }
+  },
+  {
+    "rank": 98,
+    "noun_urdu": "مدد",
+    "gender": "F",
+    "singular": "مدد",
+    "plural": null,
+    "roman_scholarly": "madad",
+    "meaning_en": "help / assistance",
+    "note": "Feminine abstract noun.",
+    "example": {
+      "urdu": "کیا میں آپ کی مدد کر سکتا ہوں؟",
+      "english": "Can I help you?"
+    }
+  },
+  {
+    "rank": 99,
+    "noun_urdu": "پیسہ",
+    "gender": "M",
+    "singular": "پیسہ",
+    "plural": "پیسے",
+    "roman_scholarly": "paisah",
+    "meaning_en": "money / penny",
+    "note": "Plural 'paise' generally means money.",
+    "example": {
+      "urdu": "میرے پاس پیسے نہیں ہیں۔",
+      "english": "I don't have money."
+    }
+  },
+  {
+    "rank": 100,
+    "noun_urdu": "قیمت",
+    "gender": "F",
+    "singular": "قیمت",
+    "plural": "قیمتیں",
+    "roman_scholarly": "qīmat",
+    "meaning_en": "price / cost",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "اس گھر کی قیمت کیا ہے؟",
+      "english": "What is the price of this house?"
+    }
+  },
+  {
+    "rank": 101,
+    "noun_urdu": "بازار",
+    "gender": "M",
+    "singular": "بازار",
+    "plural": "بازار",
+    "roman_scholarly": "bāzār",
+    "meaning_en": "market",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "امی بازار گئی ہیں۔",
+      "english": "Mother has gone to the market."
+    }
+  },
+  {
+    "rank": 102,
+    "noun_urdu": "دکان",
+    "gender": "F",
+    "singular": "دکان",
+    "plural": "دکانیں",
+    "roman_scholarly": "dukān",
+    "meaning_en": "shop",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "یہ دکان نو بجے کھلتی ہے۔",
+      "english": "This shop opens at nine o'clock."
+    }
+  },
+  {
+    "rank": 103,
+    "noun_urdu": "کپ",
+    "gender": "M",
+    "singular": "کپ",
+    "plural": "کپ",
+    "roman_scholarly": "kap",
+    "meaning_en": "cup",
+    "note": "English loanword, masculine.",
+    "example": {
+      "urdu": "میز پر ایک کپ رکھا ہے۔",
+      "english": "A cup is kept on the table."
+    }
+  },
+  {
+    "rank": 104,
+    "noun_urdu": "چمچ",
+    "gender": "M",
+    "singular": "چمچ",
+    "plural": "چمچ",
+    "roman_scholarly": "camac",
+    "meaning_en": "spoon",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "چمچ دراز میں ہے۔",
+      "english": "The spoon is in the drawer."
+    }
+  },
+  {
+    "rank": 105,
+    "noun_urdu": "گلاس",
+    "gender": "M",
+    "singular": "گلاس",
+    "plural": "گلاس",
+    "roman_scholarly": "gilās",
+    "meaning_en": "glass",
+    "note": "Loanword used for drinking vessels.",
+    "example": {
+      "urdu": "گلاس میں کتنا پانی ہے؟",
+      "english": "How much water is in the glass?"
+    }
+  },
+  {
+    "rank": 106,
+    "noun_urdu": "بستر",
+    "gender": "M",
+    "singular": "بستر",
+    "plural": "بستر",
+    "roman_scholarly": "bistar",
+    "meaning_en": "bed / bedding",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "بستر بہت نرم ہے۔",
+      "english": "The bed is very soft."
+    }
+  },
+  {
+    "rank": 107,
+    "noun_urdu": "تکیہ",
+    "gender": "M",
+    "singular": "تکیہ",
+    "plural": "تکیے",
+    "roman_scholarly": "takiyah",
+    "meaning_en": "pillow",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "تکیہ سر کے نیچے رکھ لو۔",
+      "english": "Put the pillow under your head."
+    }
+  },
+  {
+    "rank": 108,
+    "noun_urdu": "چادر",
+    "gender": "F",
+    "singular": "چادر",
+    "plural": "چادریں",
+    "roman_scholarly": "cādar",
+    "meaning_en": "sheet / shawl",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "صاف چادر بچھا دو۔",
+      "english": "Spread a clean sheet."
+    }
+  },
+  {
+    "rank": 109,
+    "noun_urdu": "گاڑی",
+    "gender": "F",
+    "singular": "گاڑی",
+    "plural": "گاڑیاں",
+    "roman_scholarly": "gāṛī",
+    "meaning_en": "car / vehicle",
+    "note": "Standard 'ī' ending feminine.",
+    "example": {
+      "urdu": "گاڑی باہر کھڑی ہے۔",
+      "english": "The car is parked outside."
+    }
+  },
+  {
+    "rank": 110,
+    "noun_urdu": "سائیکل",
+    "gender": "F",
+    "singular": "سائیکل",
+    "plural": "سائیکلیں",
+    "roman_scholarly": "sā'īkil",
+    "meaning_en": "bicycle",
+    "note": "Feminine loanword.",
+    "example": {
+      "urdu": "اس کے پاس ایک پرانی سائیکل ہے۔",
+      "english": "He has an old bicycle."
+    }
+  },
+  {
+    "rank": 111,
+    "noun_urdu": "جہاز",
+    "gender": "M",
+    "singular": "جہاز",
+    "plural": "جہاز",
+    "roman_scholarly": "jahāz",
+    "meaning_en": "ship / airplane",
+    "note": "Context determines sea or air vessel.",
+    "example": {
+      "urdu": "ہوائی جہاز اڑ رہا ہے۔",
+      "english": "The airplane is flying."
+    }
+  },
+  {
+    "rank": 112,
+    "noun_urdu": "وقت",
+    "gender": "M",
+    "singular": "وقت",
+    "plural": "اوقات",
+    "roman_scholarly": "vaqt",
+    "meaning_en": "time",
+    "note": "Repeating for frequency, 'auqāt' often means 'status' now.",
+    "example": {
+      "urdu": "اچھے اوقات ضرور آئیں گے۔",
+      "english": "Good times will surely come."
+    }
+  },
+  {
+    "rank": 113,
+    "noun_urdu": "سال",
+    "gender": "M",
+    "singular": "سال",
+    "plural": "سالوں",
+    "roman_scholarly": "sāl",
+    "meaning_en": "year",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "نیا سال مبارک ہو! ",
+      "english": "Happy New Year!"
+    }
+  },
+  {
+    "rank": 114,
+    "noun_urdu": "مہینہ",
+    "gender": "M",
+    "singular": "مہینہ",
+    "plural": "مہینے",
+    "roman_scholarly": "mahīnah",
+    "meaning_en": "month",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "فروری سال کا سب سے چھوٹا مہینہ ہے۔",
+      "english": "February is the shortest month of the year."
+    }
+  },
+  {
+    "rank": 115,
+    "noun_urdu": "ہفتہ",
+    "gender": "M",
+    "singular": "ہفتہ",
+    "plural": "ہفتے",
+    "roman_scholarly": "haftah",
+    "meaning_en": "week / Saturday",
+    "note": "Also means Saturday.",
+    "example": {
+      "urdu": "اگلے ہفتے چھٹی ہے۔",
+      "english": "There is a holiday next week."
+    }
+  },
+  {
+    "rank": 116,
+    "noun_urdu": "گھڑی",
+    "gender": "F",
+    "singular": "گھڑی",
+    "plural": "گھڑیاں",
+    "roman_scholarly": "ghaṛī",
+    "meaning_en": "watch / clock / moment",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "آپ کی گھڑی میں کیا وقت ہوا ہے؟",
+      "english": "What time is it by your watch?"
+    }
+  },
+  {
+    "rank": 117,
+    "noun_urdu": "جانور",
+    "gender": "M",
+    "singular": "جانور",
+    "plural": "جانور",
+    "roman_scholarly": "jānavar",
+    "meaning_en": "animal",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "شیر ایک جنگلی جانور ہے۔",
+      "english": "The lion is a wild animal."
+    }
+  },
+  {
+    "rank": 118,
+    "noun_urdu": "پرندہ",
+    "gender": "M",
+    "singular": "پرندہ",
+    "plural": "پرندے",
+    "roman_scholarly": "parindah",
+    "meaning_en": "bird",
+    "note": "Masculine ending in 'ah'.",
+    "example": {
+      "urdu": "پرندہ ہوا میں اڑ رہا ہے۔",
+      "english": "The bird is flying in the air."
+    }
+  },
+  {
+    "rank": 119,
+    "noun_urdu": "کتا",
+    "gender": "M",
+    "singular": "کتا",
+    "plural": "کتے",
+    "roman_scholarly": "kuttā",
+    "meaning_en": "dog",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "کتا بھونک رہا ہے۔",
+      "english": "The dog is barking."
+    }
+  },
+  {
+    "rank": 120,
+    "noun_urdu": "بلی",
+    "gender": "F",
+    "singular": "بلی",
+    "plural": "بلیاں",
+    "roman_scholarly": "billī",
+    "meaning_en": "cat",
+    "note": "Standard 'ī' ending feminine.",
+    "example": {
+      "urdu": "بلی میز کے نیچے ہے۔",
+      "english": "The cat is under the table."
+    }
+  },
+  {
+    "rank": 121,
+    "noun_urdu": "گائے",
+    "gender": "F",
+    "singular": "گائے",
+    "plural": "گائیں",
+    "roman_scholarly": "gā'e",
+    "meaning_en": "cow",
+    "note": "Feminine.",
+    "example": {
+      "urdu": "گائے گھاس کھا رہی ہے۔",
+      "english": "The cow is eating grass."
+    }
+  },
+  {
+    "rank": 122,
+    "noun_urdu": "گھوڑا",
+    "gender": "M",
+    "singular": "گھوڑا",
+    "plural": "گھوڑے",
+    "roman_scholarly": "ghoṛā",
+    "meaning_en": "horse",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "گھوڑا تیز دوڑتا ہے۔",
+      "english": "The horse runs fast."
+    }
+  },
+  {
+    "rank": 123,
+    "noun_urdu": "مچھلی",
+    "gender": "F",
+    "singular": "مچھلی",
+    "plural": "مچھلیاں",
+    "roman_scholarly": "machlī",
+    "meaning_en": "fish",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "مچھلی پانی میں تیرتی ہے۔",
+      "english": "The fish swims in the water."
+    }
+  },
+  {
+    "rank": 124,
+    "noun_urdu": "جنگل",
+    "gender": "M",
+    "singular": "جنگل",
+    "plural": "جنگلات",
+    "roman_scholarly": "jaṅgal",
+    "meaning_en": "forest / jungle",
+    "note": "Plural 'jaṅgalāt' is common.",
+    "example": {
+      "urdu": "جنگل میں بہت سے درخت ہیں۔",
+      "english": "There are many trees in the forest."
+    }
+  },
+  {
+    "rank": 125,
+    "noun_urdu": "باغ",
+    "gender": "M",
+    "singular": "باغ",
+    "plural": "باغات",
+    "roman_scholarly": "bāgh",
+    "meaning_en": "garden / orchard",
+    "note": "Arabic style plural 'bāghāt' used.",
+    "example": {
+      "urdu": "باغ میں پھول کھلے ہیں۔",
+      "english": "Flowers have bloomed in the garden."
+    }
+  },
+  {
+    "rank": 126,
+    "noun_urdu": "راست",
+    "gender": "M",
+    "singular": "راستہ",
+    "plural": "راستے",
+    "roman_scholarly": "rāstah",
+    "meaning_en": "road",
+    "note": "Alternative transliteration of Rank 36.",
+    "example": {
+      "urdu": "یہ راستہ سیدھا جاتا ہے۔",
+      "english": "This road goes straight."
+    }
+  },
+  {
+    "rank": 127,
+    "noun_urdu": "سڑک",
+    "gender": "F",
+    "singular": "سڑک",
+    "plural": "سڑکیں",
+    "roman_scholarly": "saṛak",
+    "meaning_en": "road / street",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "سڑک پر ٹریفک زیادہ ہے۔",
+      "english": "There is a lot of traffic on the road."
+    }
+  },
+  {
+    "rank": 128,
+    "noun_urdu": "ریاست",
+    "gender": "F",
+    "singular": "ریاست",
+    "plural": "ریاستیں",
+    "roman_scholarly": "riyāsat",
+    "meaning_en": "state",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "وہ ایک فلاحی ریاست ہے۔",
+      "english": "That is a welfare state."
+    }
+  },
+  {
+    "rank": 129,
+    "noun_urdu": "حکومت",
+    "gender": "F",
+    "singular": "حکومت",
+    "plural": "حکومتیں",
+    "roman_scholarly": "ḥukūmat",
+    "meaning_en": "government",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "حکومت نے نئے قوانین بنائے۔",
+      "english": "The government made new laws."
+    }
+  },
+  {
+    "rank": 130,
+    "noun_urdu": "قانون",
+    "gender": "M",
+    "singular": "قانون",
+    "plural": "قوانین",
+    "roman_scholarly": "qānūn",
+    "meaning_en": "law",
+    "note": "Arabic plural 'qavānīn' is standard.",
+    "example": {
+      "urdu": "قانون کا احترام سب پر لازم ہے۔",
+      "english": "Respect for the law is mandatory for everyone."
+    }
+  },
+  {
+    "rank": 131,
+    "noun_urdu": "فوج",
+    "gender": "F",
+    "singular": "فوج",
+    "plural": "افواج",
+    "roman_scholarly": "fauj",
+    "meaning_en": "army",
+    "note": "Arabic plural 'afvāj' is very common.",
+    "example": {
+      "urdu": "فوج سرحد کی حفاظت کر رہی ہے۔",
+      "english": "The army is protecting the border."
+    }
+  },
+  {
+    "rank": 132,
+    "noun_urdu": "پولیس",
+    "gender": "F",
+    "singular": "پولیس",
+    "plural": null,
+    "roman_scholarly": "polīs",
+    "meaning_en": "police",
+    "note": "Feminine collective noun.",
+    "example": {
+      "urdu": "پولیس چور کے پیچھے بھاگی۔",
+      "english": "The police ran after the thief."
+    }
+  },
+  {
+    "rank": 133,
+    "noun_urdu": "چور",
+    "gender": "M",
+    "singular": "چور",
+    "plural": "چور",
+    "roman_scholarly": "cor",
+    "meaning_en": "thief",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "پولیس نے چور کو پکڑ لیا۔",
+      "english": "The police caught the thief."
+    }
+  },
+  {
+    "rank": 134,
+    "noun_urdu": "خیال",
+    "gender": "M",
+    "singular": "خیال",
+    "plural": "خیالات",
+    "roman_scholarly": "khayāl",
+    "meaning_en": "thought / care / idea",
+    "note": "Plural 'khayālāt' is common.",
+    "example": {
+      "urdu": "میرا خیال ہے کہ آپ ٹھیک کہہ رہے ہیں۔",
+      "english": "I think (my thought is) that you are saying the right thing."
+    }
+  },
+  {
+    "rank": 135,
+    "noun_urdu": "سوچ",
+    "gender": "F",
+    "singular": "سوچ",
+    "plural": null,
+    "roman_scholarly": "soc",
+    "meaning_en": "thinking / worry",
+    "note": "Feminine abstract.",
+    "example": {
+      "urdu": "مثبت سوچ رکھیں۔",
+      "english": "Have positive thinking."
+    }
+  },
+  {
+    "rank": 136,
+    "noun_urdu": "محبت",
+    "gender": "F",
+    "singular": "محبت",
+    "plural": null,
+    "roman_scholarly": "muḥabbat",
+    "meaning_en": "love",
+    "note": "Feminine abstract.",
+    "example": {
+      "urdu": "والدین کی محبت بے لوث ہوتی ہے۔",
+      "english": "The love of parents is selfless."
+    }
+  },
+  {
+    "rank": 137,
+    "noun_urdu": "نفرت",
+    "gender": "F",
+    "singular": "نفرت",
+    "plural": null,
+    "roman_scholarly": "nafrat",
+    "meaning_en": "hatred",
+    "note": "Feminine abstract.",
+    "example": {
+      "urdu": "نفرت دل میں نہیں رکھنی چاہیے۔",
+      "english": "Hatred should not be kept in the heart."
+    }
+  },
+  {
+    "rank": 138,
+    "noun_urdu": "غصہ",
+    "gender": "M",
+    "singular": "غصہ",
+    "plural": null,
+    "roman_scholarly": "ghuṣah",
+    "meaning_en": "anger",
+    "note": "Masculine 'ah' ending.",
+    "example": {
+      "urdu": "غصہ صحت کے لیے برا ہے۔",
+      "english": "Anger is bad for health."
+    }
+  },
+  {
+    "rank": 139,
+    "noun_urdu": "خوف",
+    "gender": "M",
+    "singular": "خوف",
+    "plural": null,
+    "roman_scholarly": "khauf",
+    "meaning_en": "fear",
+    "note": "Masculine abstract.",
+    "example": {
+      "urdu": "اسے اندھیرے سے خوف آتا ہے۔",
+      "english": "He feels fear of the dark."
+    }
+  },
+  {
+    "rank": 140,
+    "noun_urdu": "بھروسہ",
+    "gender": "M",
+    "singular": "بھروسہ",
+    "plural": null,
+    "roman_scholarly": "bharosah",
+    "meaning_en": "trust / reliance",
+    "note": "Masculine 'ah' ending.",
+    "example": {
+      "urdu": "مجھ پر بھروسہ رکھو۔",
+      "english": "Trust me."
+    }
+  },
+  {
+    "rank": 141,
+    "noun_urdu": "یاد",
+    "gender": "F",
+    "singular": "یاد",
+    "plural": "یادیں",
+    "roman_scholarly": "yād",
+    "meaning_en": "memory / remembrance",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "بچپن کی یادیں بہت پیاری ہیں۔",
+      "english": "Childhood memories are very sweet."
+    }
+  },
+  {
+    "rank": 142,
+    "noun_urdu": "بھول",
+    "gender": "F",
+    "singular": "بھول",
+    "plural": null,
+    "roman_scholarly": "bhūl",
+    "meaning_en": "forgetfulness / mistake",
+    "note": "Feminine abstract.",
+    "example": {
+      "urdu": "یہ میری بھول تھی۔",
+      "english": "This was my mistake / oversight."
+    }
+  },
+  {
+    "rank": 143,
+    "noun_urdu": "غلطی",
+    "gender": "F",
+    "singular": "غلطی",
+    "plural": "غلطیاں",
+    "roman_scholarly": "ghalt̤ī",
+    "meaning_en": "mistake",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "اپنی غلطی تسلیم کر لو۔",
+      "english": "Admit your mistake."
+    }
+  },
+  {
+    "rank": 144,
+    "noun_urdu": "شک",
+    "gender": "M",
+    "singular": "شک",
+    "plural": "شکوک",
+    "roman_scholarly": "shak",
+    "meaning_en": "doubt / suspicion",
+    "note": "Arabic plural 'shukūk' is common.",
+    "example": {
+      "urdu": "مجھے اس بات پر شک ہے۔",
+      "english": "I have a doubt about this."
+    }
+  },
+  {
+    "rank": 145,
+    "noun_urdu": "یقین",
+    "gender": "M",
+    "singular": "یقین",
+    "plural": null,
+    "roman_scholarly": "yaqīn",
+    "meaning_en": "certainty / belief",
+    "note": "Masculine abstract.",
+    "example": {
+      "urdu": "مجھے یقین ہے کہ وہ آئے گا۔",
+      "english": "I am certain that he will come."
+    }
+  },
+  {
+    "rank": 146,
+    "noun_urdu": "موقع",
+    "gender": "M",
+    "singular": "موقع",
+    "plural": "مواقع",
+    "roman_scholarly": "mauqaʿ",
+    "meaning_en": "opportunity / occasion",
+    "note": "Arabic plural 'mavāqiʿ' is common.",
+    "example": {
+      "urdu": "یہ ایک اچھا موقع ہے۔",
+      "english": "This is a good opportunity."
+    }
+  },
+  {
+    "rank": 147,
+    "noun_urdu": "کامیابی",
+    "gender": "F",
+    "singular": "کامیابی",
+    "plural": "کامیابیاں",
+    "roman_scholarly": "kāmyābī",
+    "meaning_en": "success",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "سخت محنت کامیابی کی کنجی ہے۔",
+      "english": "Hard work is the key to success."
+    }
+  },
+  {
+    "rank": 148,
+    "noun_urdu": "ناکامی",
+    "gender": "F",
+    "singular": "ناکامی",
+    "plural": "ناکامیاں",
+    "roman_scholarly": "nākāmī",
+    "meaning_en": "failure",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "ناکامی سے گھبرانا نہیں چاہیے۔",
+      "english": "One should not be afraid of failure."
+    }
+  },
+  {
+    "rank": 149,
+    "noun_urdu": "فائدہ",
+    "gender": "M",
+    "singular": "فائدہ",
+    "plural": "فوائد",
+    "roman_scholarly": "fā'idah",
+    "meaning_en": "benefit / profit",
+    "note": "Arabic plural 'favā'id' used frequently.",
+    "example": {
+      "urdu": "اس کا کیا فائدہ ہے؟",
+      "english": "What is the benefit of this?"
+    }
+  },
+  {
+    "rank": 150,
+    "noun_urdu": "نقصان",
+    "gender": "M",
+    "singular": "نقصان",
+    "plural": "نقصانات",
+    "roman_scholarly": "nuqṣān",
+    "meaning_en": "loss / harm",
+    "note": "Plural uses Arabic suffix '-āt'.",
+    "example": {
+      "urdu": "سیلاب سے بہت نقصان ہوا۔",
+      "english": "The flood caused a lot of damage."
+    }
+  },
+  {
+    "rank": 151,
+    "noun_urdu": "امتحان",
+    "gender": "M",
+    "singular": "امتحان",
+    "plural": "امتحانات",
+    "roman_scholarly": "imtiḥān",
+    "meaning_en": "examination / test",
+    "note": "Plural 'imtiḥānāt' is standard.",
+    "example": {
+      "urdu": "اگلے مہینے میرے امتحانات ہیں۔",
+      "english": "I have my exams next month."
+    }
+  },
+  {
+    "rank": 152,
+    "noun_urdu": "نتیجہ",
+    "gender": "M",
+    "singular": "نتیجہ",
+    "plural": "نتائج",
+    "roman_scholarly": "natījah",
+    "meaning_en": "result",
+    "note": "Arabic plural 'natā'ij' used.",
+    "example": {
+      "urdu": "آپ کا نتیجہ کیا رہا؟",
+      "english": "What was your result?"
+    }
+  },
+  {
+    "rank": 153,
+    "noun_urdu": "مکان",
+    "gender": "M",
+    "singular": "مکان",
+    "plural": "مکانات",
+    "roman_scholarly": "makān",
+    "meaning_en": "house / building",
+    "note": "Often refers to the structure specifically.",
+    "example": {
+      "urdu": "یہ مکان کرائے کے لیے ہے۔",
+      "english": "This house is for rent."
+    }
+  },
+  {
+    "rank": 154,
+    "noun_urdu": "دیوار",
+    "gender": "F",
+    "singular": "دیوار",
+    "plural": "دیواریں",
+    "roman_scholarly": "dīvār",
+    "meaning_en": "wall",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "دیوار پر تصویر لگی ہے۔",
+      "english": "A picture is hanging on the wall."
+    }
+  },
+  {
+    "rank": 155,
+    "noun_urdu": "چھت",
+    "gender": "F",
+    "singular": "چھت",
+    "plural": "چھتیں",
+    "roman_scholarly": "chat",
+    "meaning_en": "roof / ceiling",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "وہ گھر کی چھت پر بیٹھا ہے۔",
+      "english": "He is sitting on the roof of the house."
+    }
+  },
+  {
+    "rank": 156,
+    "noun_urdu": "فرش",
+    "gender": "M",
+    "singular": "فرش",
+    "plural": "فرش",
+    "roman_scholarly": "farsh",
+    "meaning_en": "floor",
+    "note": "Masculine consonant-ending.",
+    "example": {
+      "urdu": "فرش پر مت لیٹو۔",
+      "english": "Do not lie on the floor."
+    }
+  },
+  {
+    "rank": 157,
+    "noun_urdu": "باورچی خانہ",
+    "gender": "M",
+    "singular": "باورچی خانہ",
+    "plural": "باورچی خانے",
+    "roman_scholarly": "bāvarcī khānah",
+    "meaning_en": "kitchen",
+    "note": "Compound masculine noun.",
+    "example": {
+      "urdu": "امی باورچی خانے میں کھانا پکا رہی ہیں۔",
+      "english": "Mother is cooking in the kitchen."
+    }
+  },
+  {
+    "rank": 158,
+    "noun_urdu": "باغیچہ",
+    "gender": "M",
+    "singular": "باغیچہ",
+    "plural": "باغیچے",
+    "roman_scholarly": "bāghīcah",
+    "meaning_en": "small garden",
+    "note": "Diminutive of 'bāgh'.",
+    "example": {
+      "urdu": "گھر کے سامنے ایک چھوٹا باغیچہ ہے۔",
+      "english": "There is a small garden in front of the house."
+    }
+  },
+  {
+    "rank": 159,
+    "noun_urdu": "پودا",
+    "gender": "M",
+    "singular": "پودا",
+    "plural": "پودے",
+    "roman_scholarly": "paudā",
+    "meaning_en": "plant",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "پودوں کو پانی دو۔",
+      "english": "Water the plants."
+    }
+  },
+  {
+    "rank": 160,
+    "noun_urdu": "پتا",
+    "gender": "M",
+    "singular": "پتا",
+    "plural": "پتے",
+    "roman_scholarly": "pattā",
+    "meaning_en": "leaf",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "درخت سے پتا گرا۔",
+      "english": "A leaf fell from the tree."
+    }
+  },
+  {
+    "rank": 161,
+    "noun_urdu": "شاخ",
+    "gender": "F",
+    "singular": "شاخ",
+    "plural": "شاخیں",
+    "roman_scholarly": "shākh",
+    "meaning_en": "branch",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "پرندہ درخت کی شاخ پر بیٹھا ہے۔",
+      "english": "The bird is sitting on the branch of the tree."
+    }
+  },
+  {
+    "rank": 162,
+    "noun_urdu": "پھل",
+    "gender": "M",
+    "singular": "پھل",
+    "plural": "پھل",
+    "roman_scholarly": "phal",
+    "meaning_en": "fruit",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "تازہ پھل کھایا کرو۔",
+      "english": "Eat fresh fruit."
+    }
+  },
+  {
+    "rank": 163,
+    "noun_urdu": "آم",
+    "gender": "M",
+    "singular": "آم",
+    "plural": "آم",
+    "roman_scholarly": "ām",
+    "meaning_en": "mango",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "آم پھلوں کا بادشاہ ہے۔",
+      "english": "Mango is the king of fruits."
+    }
+  },
+  {
+    "rank": 164,
+    "noun_urdu": "سیب",
+    "gender": "M",
+    "singular": "سیب",
+    "plural": "سیب",
+    "roman_scholarly": "seb",
+    "meaning_en": "apple",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "روزانہ ایک سیب کھاؤ۔",
+      "english": "Eat an apple daily."
+    }
+  },
+  {
+    "rank": 165,
+    "noun_urdu": "کیلا",
+    "gender": "M",
+    "singular": "کیلا",
+    "plural": "کیلے",
+    "roman_scholarly": "kelā",
+    "meaning_en": "banana",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "بچے کو کیلا بہت پسند ہے۔",
+      "english": "The child likes bananas very much."
+    }
+  },
+  {
+    "rank": 166,
+    "noun_urdu": "کپڑا",
+    "gender": "M",
+    "singular": "کپڑا",
+    "plural": "کپڑے",
+    "roman_scholarly": "kapṛā",
+    "meaning_en": "cloth",
+    "note": "See Rank 43.",
+    "example": {
+      "urdu": "یہ ریشمی کپڑا ہے۔",
+      "english": "This is silk cloth."
+    }
+  },
+  {
+    "rank": 167,
+    "noun_urdu": "قمیض",
+    "gender": "F",
+    "singular": "قمیض",
+    "plural": "قمیضیں",
+    "roman_scholarly": "qamīṣ",
+    "meaning_en": "shirt",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "میری قمیض میلی ہو گئی ہے۔",
+      "english": "My shirt has become dirty."
+    }
+  },
+  {
+    "rank": 168,
+    "noun_urdu": "شلوار",
+    "gender": "F",
+    "singular": "شلوار",
+    "plural": "شلواریں",
+    "roman_scholarly": "shalvār",
+    "meaning_en": "trousers (traditional)",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "یہ شلوار قمیض کا جوڑا ہے۔",
+      "english": "This is a shalwar kameez suit."
+    }
+  },
+  {
+    "rank": 169,
+    "noun_urdu": "ٹوپی",
+    "gender": "F",
+    "singular": "ٹوپی",
+    "plural": "ٹوپیاں",
+    "roman_scholarly": "ṭopī",
+    "meaning_en": "cap / hat",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "سر پر ٹوپی پہن لو۔",
+      "english": "Wear a cap on your head."
+    }
+  },
+  {
+    "rank": 170,
+    "noun_urdu": "جراب",
+    "gender": "F",
+    "singular": "جراب",
+    "plural": "جرابیں",
+    "roman_scholarly": "jurāb",
+    "meaning_en": "sock",
+    "note": "Feminine consonant-ending.",
+    "example": {
+      "urdu": "جرابیں صاف کر لیں۔",
+      "english": "Clean the socks."
+    }
+  },
+  {
+    "rank": 171,
+    "noun_urdu": "چشمہ",
+    "gender": "M",
+    "singular": "چشمہ",
+    "plural": "چشمے",
+    "roman_scholarly": "cashmah",
+    "meaning_en": "spectacles / spring (water)",
+    "note": "Masculine 'ah' ending.",
+    "example": {
+      "urdu": "میرا چشمہ کہاں ہے؟",
+      "english": "Where are my spectacles?"
+    }
+  },
+  {
+    "rank": 172,
+    "noun_urdu": "انگوٹھی",
+    "gender": "F",
+    "singular": "انگوٹھی",
+    "plural": "انگوٹھیاں",
+    "roman_scholarly": "aṅgūṭhī",
+    "meaning_en": "ring",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "یہ سونے کی انگوٹھی ہے۔",
+      "english": "This is a gold ring."
+    }
+  },
+  {
+    "rank": 173,
+    "noun_urdu": "ہار",
+    "gender": "M",
+    "singular": "ہار",
+    "plural": "ہار",
+    "roman_scholarly": "hār",
+    "meaning_en": "necklace / defeat",
+    "note": "Gender can vary by meaning; as necklace it is M.",
+    "example": {
+      "urdu": "اس نے ہیرا کا ہار پہنا ہے۔",
+      "english": "She is wearing a diamond necklace."
+    }
+  },
+  {
+    "rank": 174,
+    "noun_urdu": "دولت",
+    "gender": "F",
+    "singular": "دولت",
+    "plural": null,
+    "roman_scholarly": "daulat",
+    "meaning_en": "wealth / riches",
+    "note": "Feminine abstract.",
+    "example": {
+      "urdu": "صحت بڑی دولت ہے۔",
+      "english": "Health is great wealth."
+    }
+  },
+  {
+    "rank": 175,
+    "noun_urdu": "غریب",
+    "gender": "M",
+    "singular": "غریب",
+    "plural": "غرباء",
+    "roman_scholarly": "gharīb",
+    "meaning_en": "poor person",
+    "note": "Arabic plural 'ghurabā' is formal.",
+    "example": {
+      "urdu": "غریب کی مدد کرو۔",
+      "english": "Help the poor."
+    }
+  },
+  {
+    "rank": 176,
+    "noun_urdu": "امیر",
+    "gender": "M",
+    "singular": "امیر",
+    "plural": "امراء",
+    "roman_scholarly": "amīr",
+    "meaning_en": "rich person",
+    "note": "Arabic plural 'umarā' is formal.",
+    "example": {
+      "urdu": "وہ ایک امیر آدمی ہے۔",
+      "english": "He is a rich man."
+    }
+  },
+  {
+    "rank": 177,
+    "noun_urdu": "مالک",
+    "gender": "M",
+    "singular": "مالک",
+    "plural": "مالک",
+    "roman_scholarly": "mālik",
+    "meaning_en": "owner / master",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "اس مکان کا مالک کون ہے؟",
+      "english": "Who is the owner of this house?"
+    }
+  },
+  {
+    "rank": 178,
+    "noun_urdu": "نوکر",
+    "gender": "M",
+    "singular": "نوکر",
+    "plural": "نوکر",
+    "roman_scholarly": "naukar",
+    "meaning_en": "servant",
+    "note": "Masculine invariant.",
+    "example": {
+      "urdu": "نوکر کام کر رہا ہے۔",
+      "english": "The servant is working."
+    }
+  },
+  {
+    "rank": 179,
+    "noun_urdu": "کام",
+    "gender": "M",
+    "singular": "کام",
+    "plural": "کام",
+    "roman_scholarly": "kām",
+    "meaning_en": "work / job",
+    "note": "See Rank 20.",
+    "example": {
+      "urdu": "آج کام بہت زیادہ ہے۔",
+      "english": "There is a lot of work today."
+    }
+  },
+  {
+    "rank": 180,
+    "noun_urdu": "دفتر",
+    "gender": "M",
+    "singular": "دفتر",
+    "plural": "دفاتر",
+    "roman_scholarly": "daftar",
+    "meaning_en": "office / record",
+    "note": "Arabic plural 'dafātir' used in administrative context.",
+    "example": {
+      "urdu": "وہ نو بجے دفتر جاتا ہے۔",
+      "english": "He goes to the office at nine o'clock."
+    }
+  },
+  {
+    "rank": 181,
+    "noun_urdu": "کرسی",
+    "gender": "F",
+    "singular": "کرسی",
+    "plural": "کرسیاں",
+    "roman_scholarly": "kursī",
+    "meaning_en": "chair",
+    "note": "See Rank 21.",
+    "example": {
+      "urdu": "آرام دہ کرسی پر بیٹھو۔",
+      "english": "Sit on a comfortable chair."
+    }
+  },
+  {
+    "rank": 182,
+    "noun_urdu": "خط",
+    "gender": "M",
+    "singular": "خط",
+    "plural": "خطوط",
+    "roman_scholarly": "khat̤",
+    "meaning_en": "letter / line",
+    "note": "Arabic plural 'khut̤ūt̤' is standard.",
+    "example": {
+      "urdu": "میں نے دوست کو خط لکھا۔",
+      "english": "I wrote a letter to my friend."
+    }
+  },
+  {
+    "rank": 183,
+    "noun_urdu": "لفافہ",
+    "gender": "M",
+    "singular": "لفافہ",
+    "plural": "لفافے",
+    "roman_scholarly": "lifāfah",
+    "meaning_en": "envelope",
+    "note": "Masculine 'ah' ending.",
+    "example": {
+      "urdu": "خط لفافے میں ڈال دو۔",
+      "english": "Put the letter in the envelope."
+    }
+  },
+  {
+    "rank": 184,
+    "noun_urdu": "ڈاک",
+    "gender": "F",
+    "singular": "ڈاک",
+    "plural": null,
+    "roman_scholarly": "ḍāk",
+    "meaning_en": "mail / post",
+    "note": "Feminine collective.",
+    "example": {
+      "urdu": "کیا آج کی ڈاک آ گئی؟",
+      "english": "Has today's mail arrived?"
+    }
+  },
+  {
+    "rank": 185,
+    "noun_urdu": "خبر",
+    "gender": "F",
+    "singular": "خبر",
+    "plural": "اخبار",
+    "roman_scholarly": "khabar",
+    "meaning_en": "news",
+    "note": "Arabic plural 'akhbār' is used as the singular word for newspaper.",
+    "example": {
+      "urdu": "یہ بہت اچھی خبر ہے۔",
+      "english": "This is very good news."
+    }
+  },
+  {
+    "rank": 186,
+    "noun_urdu": "اخبار",
+    "gender": "M",
+    "singular": "اخبار",
+    "plural": "اخبارات",
+    "roman_scholarly": "akhbār",
+    "meaning_en": "newspaper",
+    "note": "Plural of Rank 185 treated as M singular.",
+    "example": {
+      "urdu": "روزانہ اخبار پڑھا کرو۔",
+      "english": "Read the newspaper daily."
+    }
+  },
+  {
+    "rank": 187,
+    "noun_urdu": "ریڈیو",
+    "gender": "M",
+    "singular": "ریڈیو",
+    "plural": "ریڈیو",
+    "roman_scholarly": "reḍiyo",
+    "meaning_en": "radio",
+    "note": "Masculine invariant loanword.",
+    "example": {
+      "urdu": "ریڈیو پر خبریں سنو۔",
+      "english": "Listen to the news on the radio."
+    }
+  },
+  {
+    "rank": 188,
+    "noun_urdu": "ٹیلی ویژن",
+    "gender": "M",
+    "singular": "ٹیلی ویژن",
+    "plural": "ٹیلی ویژن",
+    "roman_scholarly": "ṭelīvīzhan",
+    "meaning_en": "television",
+    "note": "Masculine invariant loanword.",
+    "example": {
+      "urdu": "بچے ٹیلی ویژن دیکھ رہے ہیں۔",
+      "english": "The children are watching television."
+    }
+  },
+  {
+    "rank": 189,
+    "noun_urdu": "فون",
+    "gender": "M",
+    "singular": "فون",
+    "plural": "فون",
+    "roman_scholarly": "fon",
+    "meaning_en": "phone",
+    "note": "Masculine invariant loanword.",
+    "example": {
+      "urdu": "آپ کا فون بج رہا ہے۔",
+      "english": "Your phone is ringing."
+    }
+  },
+  {
+    "rank": 190,
+    "noun_urdu": "موبائل",
+    "gender": "M",
+    "singular": "موبائل",
+    "plural": "موبائل",
+    "roman_scholarly": "mubā'il",
+    "meaning_en": "mobile phone",
+    "note": "Masculine loanword.",
+    "example": {
+      "urdu": "موبائل چارج پر لگا دو۔",
+      "english": "Put the mobile on charge."
+    }
+  },
+  {
+    "rank": 191,
+    "noun_urdu": "کمپیوٹر",
+    "gender": "M",
+    "singular": "کمپیوٹر",
+    "plural": "کمپیوٹر",
+    "roman_scholarly": "kampiyūṭar",
+    "meaning_en": "computer",
+    "note": "Masculine invariant loanword.",
+    "example": {
+      "urdu": "کمپیوٹر ٹھیک کام نہیں کر رہا۔",
+      "english": "The computer is not working properly."
+    }
+  },
+  {
+    "rank": 192,
+    "noun_urdu": "بجلی",
+    "gender": "F",
+    "singular": "بجلی",
+    "plural": null,
+    "roman_scholarly": "bijlī",
+    "meaning_en": "electricity / lightning",
+    "note": "Feminine 'ī' ending.",
+    "example": {
+      "urdu": "بجلی چلی گئی ہے۔",
+      "english": "The electricity has gone out."
+    }
+  },
+  {
+    "rank": 193,
+    "noun_urdu": "پنکھا",
+    "gender": "M",
+    "singular": "پنکھا",
+    "plural": "پنکھے",
+    "roman_scholarly": "paṅkhā",
+    "meaning_en": "fan",
+    "note": "Masculine 'ā' ending.",
+    "example": {
+      "urdu": "پنکھا چلا دو۔",
+      "english": "Turn on the fan."
+    }
+  },
+  {
+    "rank": 194,
+    "noun_urdu": "روشنی",
+    "gender": "F",
+    "singular": "روشنی",
+    "plural": "روشنیاں",
+    "roman_scholarly": "raushnī",
+    "meaning_en": "light",
+    "note": "See Rank 62.",
+    "example": {
+      "urdu": "شہر میں بہت روشنیاں ہیں۔",
+      "english": "There are many lights in the city."
+    }
+  },
+  {
+    "rank": 195,
+    "noun_urdu": "تیل",
+    "gender": "M",
+    "singular": "تیل",
+    "plural": null,
+    "roman_scholarly": "tel",
+    "meaning_en": "oil",
+    "note": "See Rank 94.",
+    "example": {
+      "urdu": "چراغ میں تیل ختم ہو گیا۔",
+      "english": "The oil in the lamp is finished."
+    }
+  },
+  {
+    "rank": 196,
+    "noun_urdu": "پیٹرول",
+    "gender": "M",
+    "singular": "پیٹرول",
+    "plural": null,
+    "roman_scholarly": "peṭrol",
+    "meaning_en": "petrol / gasoline",
+    "note": "Masculine mass noun loanword.",
+    "example": {
+      "urdu": "پیٹرول کی قیمت بڑھ گئی ہے۔",
+      "english": "The price of petrol has increased."
+    }
+  },
+  {
+    "rank": 197,
+    "noun_urdu": "گیس",
+    "gender": "F",
+    "singular": "گیس",
+    "plural": null,
+    "roman_scholarly": "gais",
+    "meaning_en": "gas",
+    "note": "Feminine mass noun loanword.",
+    "example": {
+      "urdu": "باورچی خانے میں گیس نہیں آ رہی۔",
+      "english": "Gas is not coming in the kitchen."
+    }
+  },
+  {
+    "rank": 198,
+    "noun_urdu": "آگ",
+    "gender": "F",
+    "singular": "آگ",
+    "plural": null,
+    "roman_scholarly": "āg",
+    "meaning_en": "fire",
+    "note": "See Rank 71.",
+    "example": {
+      "urdu": "آگ بجھا دو۔",
+      "english": "Extinguish the fire."
+    }
+  },
+  {
+    "rank": 199,
+    "noun_urdu": "دھواں",
+    "gender": "M",
+    "singular": "دھواں",
+    "plural": null,
+    "roman_scholarly": "dhū'āṅ",
+    "meaning_en": "smoke",
+    "note": "Masculine with nasalized vowel ending.",
+    "example": {
+      "urdu": "ہر طرف دھواں پھیلا ہوا ہے۔",
+      "english": "Smoke is spread everywhere."
+    }
+  },
+  {
+    "rank": 200,
+    "noun_urdu": "خوشبو",
+    "gender": "F",
+    "singular": "خوشبو",
+    "plural": "خوشبوئیں",
+    "roman_scholarly": "khushbū",
+    "meaning_en": "fragrance / aroma",
+    "note": "Feminine ending in 'ū'.",
+    "example": {
+      "urdu": "پھولوں کی خوشبو بہت پیاری ہے۔",
+      "english": "The fragrance of flowers is very lovely."
+    }
+  }
 ]
