@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Noto_Naskh_Arabic, Noto_Nastaliq_Urdu } from "next/font/google";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { AppHeader } from "@/components/app-header";
 import "./globals.css";
 
 const notoNaskhArabic = Noto_Naskh_Arabic({
@@ -43,7 +44,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${notoNaskhArabic.variable} ${notoNastaliqUrdu.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <TooltipProvider>{children}</TooltipProvider>
+        <TooltipProvider>
+          <AppHeader />
+          {children}
+        </TooltipProvider>
       </body>
     </html>
   );
